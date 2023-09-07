@@ -22,7 +22,7 @@ export const ContainerGeral2 = styled.div`
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image:url(${Fundo});
+    background-image: url(${Fundo});
 `
 
 export const ContainerCenter = styled.div`

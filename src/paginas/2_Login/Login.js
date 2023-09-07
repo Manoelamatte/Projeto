@@ -1,5 +1,5 @@
 import { ContainerCenter, ContainerGeral } from "../../styledGlobal"
-import { CardVermelho, Cardbranco, ContainerCard, EscritaDireita, Input } from "../3_Cadastro/styled"
+import { CardVermelho, Cardbranco, ContainerCard, Input } from "../3_Cadastro/styled"
 import { BotaoDireita, BotaoLogin, ImagemDireita, TextfieldLogin, TextoDireita, Titulo1, Titulo2 } from "./styled"
 import imagemLogin from "../../assets/imagemLogin.png"
 

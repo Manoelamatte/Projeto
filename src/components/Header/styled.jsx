@@ -14,3 +14,15 @@ export const TituloHeader = styled.h2`
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(228, 0, 0);
 `
+
+export const ImagemMenu = styled.img`
+    width: 04%;
+    height: 40%;
+    margin: 10px;
+`
+
+export const ImagemProfire = styled.img`
+    width: 04%;
+    height: 70%;
+    margin: 10px;
+`
