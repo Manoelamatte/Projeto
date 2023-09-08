@@ -10,21 +10,15 @@ function Home(){
                 oi
                 <ContainerMiniDivis>
                     <MiniDivis>
-                        <Divisinhas>
-                            Autora:
-                        </Divisinhas>
+                       
                     </MiniDivis>
 
                     <MiniDivis>
-                        <Divisinhas>
-                            Github
-                        </Divisinhas>
+                    
                     </MiniDivis>
 
                     <MiniDivis>
-                        <Divisinhas>
-                            Projeto:
-                        </Divisinhas>
+                    
                     </MiniDivis>
                 </ContainerMiniDivis>
         </ContainerGeral2>

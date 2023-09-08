@@ -35,6 +35,12 @@ export const BotaoFilmes = styled.button`
   all: unset;
   cursor: pointer;
   outline: revert;
+
+  &:hover{
+    background-color: red;
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
 `
 
 export const ImagemFilmes = styled.img`

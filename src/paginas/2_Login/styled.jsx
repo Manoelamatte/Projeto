@@ -55,6 +55,7 @@ export const BotaoDireita = styled.button`
     padding: 16px 0px;
     margin: 20px 120px;
     border: none;
+    letter-spacing: 3px;
     border-radius: 10px;
     text-transform: uppercase;
     background-color: rgba(212, 0, 0, 1);

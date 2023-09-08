@@ -1,8 +1,10 @@
-import { ContainerHeader, ImagemMenu, ImagemProfire, TituloHeader } from "./styled"
+import { BotaoHeader, ContainerHeader, ImagemMenu, ImagemProfire, TituloHeader } from "./styled"
 import iconeMenu from "../../assets/iconeMenu.png"
 import heroinaIcone from "../../assets/heroinaIcone.png"
+import { useNavigate } from "react-router-dom"
 
 function Header2(){
+    
     return(
         <>
         <ContainerHeader>
@@ -12,6 +14,7 @@ function Header2(){
 
             <ImagemProfire src={heroinaIcone}/>
         </ContainerHeader>
+
         </>
     )
 }

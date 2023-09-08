@@ -9,8 +9,21 @@ import mulherGato from "../../assets/mulherGato.jpg"
 import quartetofantatisco from "../../assets/quartetofantastico.jpg"
 import ligadaJustica from "../../assets/ligadaJustica.jpg"
 import Header2 from "../../components/Header/Header2"
+import { useNavigate } from "react-router-dom"
+import MulherMaravilha from "./7_MulherMaravilha/MulherMaravilha"
 
 function Filmes(){
+
+    const navigate = useNavigate()
+
+    const goToCapitaMarvel = ()=>{
+        navigate('/capitamarvel')
+    }
+
+    const goToMulherMaravilha = ()=>{
+        navigate('mulhermaravilha')
+    }
+
     return(
         <>
         <ContainerGeral>
@@ -47,11 +60,11 @@ function Filmes(){
                             <ImagemFilmes src={ligadaJustica}/>
                         </BotaoFilmes>
 
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToMulherMaravilha}>
                             <ImagemFilmes src={posterMulherMaravilha}/>
                         </BotaoFilmes>
 
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToCapitaMarvel}>
                             <ImagemFilmes src={capitaMarvel}/>
                         </BotaoFilmes>
 

@@ -2,8 +2,15 @@ import { ContainerCenter, ContainerGeral } from "../../styledGlobal"
 import { BotaoCadastro, CardVermelho, Cardbranco, ContainerCard, EscritaDireita, Input, Textfield, TitutoCadastro } from "./styled"
 import imagemCadastro from "../../assets/imagemCadastro.png"
 import { ImagemDireita } from "../2_Login/styled"
+import { useNavigate } from "react-router-dom"
 
 function Cadastro(){
+
+    const navigate = useNavigate()
+    const goToLogin = ()=>{
+        navigate('/login')
+    }
+
     return(
         <>
         <ContainerGeral>
@@ -38,7 +45,7 @@ function Cadastro(){
                             </Input>
                         </Textfield>
 
-                        <BotaoCadastro>
+                        <BotaoCadastro onClick={goToLogin}>
                             Cadastrar
                         </BotaoCadastro>
                     </Cardbranco>

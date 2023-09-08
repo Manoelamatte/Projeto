@@ -11,7 +11,7 @@ export const ContainerMiniDivis = styled.div`
 `
 
 export const MiniDivis = styled.div`
-    background-color: rgba(106,14,14,1);
+    background-color: rgba(212, 0, 0, 1);
     width: 20vw;
     height: 50vh;
     border-radius: 10%;
