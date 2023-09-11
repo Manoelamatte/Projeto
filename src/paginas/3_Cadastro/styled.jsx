@@ -42,10 +42,12 @@ export const Input = styled.input`
     border: solid 02px rgba(138, 0, 0, 1);
     border-radius: 10px;
     padding: 15px;
+    height: 50px;
     background: transparent;
     font-size: 12pt;
     outline: none;
     box-sizing: border-box;
+    resize: none;
 `
 
 export const TitutoCadastro = styled.h1`

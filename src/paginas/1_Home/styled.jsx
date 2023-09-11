@@ -27,3 +27,7 @@ export const Divisinhas = styled.div`
     height: 44vh;
     border-radius: 10%;
 `
+
+export const InputHome = styled.input`
+    display: none;
+`

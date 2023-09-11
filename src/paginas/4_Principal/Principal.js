@@ -1,9 +1,10 @@
 import Header2 from "../../components/Header/Header2"
-import { ContainerGeral } from "../../styledGlobal"
+import { ContainerCenter, ContainerGeral, ContainerGeral2 } from "../../styledGlobal"
 import { BotaoPrincipal, ImagemPrincipal } from "./styled"
 import MaisPublic from "../../assets/MaisPublic.png"
 import { useNavigate } from "react-router-dom"
 import { BotaoHeader } from "../../components/Header/styled"
+import Post from "../../components/Post/Post"
 
 function Principal(){
 
@@ -12,27 +13,24 @@ function Principal(){
         navigate('/publicacao')
     }
 
-    const goToFilmes = ()=>{
-        navigate('/filmes')
-    }
-
     return(
         <>
-        <ContainerGeral>
+        <ContainerGeral2>
             <Header2/>
+                <ContainerCenter>
 
-            <BotaoHeader onClick={goToFilmes}>
-                 Filmes
-           </BotaoHeader>
+                    <Post/>
 
-            <BotaoHeader>
-                LogoOut
-            </BotaoHeader>
+                    <Post/>
+                    
+                    <Post/>
+           
+                    <BotaoPrincipal onClick={goToPublic}>
+                     <ImagemPrincipal src={MaisPublic}/>
+                    </BotaoPrincipal> 
 
-            <BotaoPrincipal onClick={goToPublic}>
-                <ImagemPrincipal src={MaisPublic}/>
-            </BotaoPrincipal>
-        </ContainerGeral>
+                 </ContainerCenter>
+        </ContainerGeral2>
         </>
     )
 }

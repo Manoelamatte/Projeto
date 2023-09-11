@@ -29,4 +29,13 @@ export const ContainerCenter = styled.div`
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
+`
+
+export const Container3 = styled.div`
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background-image:url(${Fundo});
 `

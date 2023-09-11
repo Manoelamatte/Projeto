@@ -21,7 +21,7 @@ export const CardInformacoes = styled.div`
     width: 25vw;
     display: flex;
     background: black;
-    height: 70vh;
+    height: 100%;
     margin: 20px;
     border-radius: 10%;
     flex-direction: column;
@@ -34,7 +34,8 @@ export const TituloInfo = styled.h2`
 
 export const Textinhos = styled.p`
     color: white;
-    font-size: 15pt;
-   margin-left: 20px;
+    font-size: 12pt;
+    margin: 12px;
    flex-direction: column;
+   text-align: justify;
 `

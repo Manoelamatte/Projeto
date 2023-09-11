@@ -24,6 +24,9 @@ function Filmes(){
         navigate('mulhermaravilha')
     }
 
+   const goToMulherGato = ()=>{
+    navigate('mulhergato')
+   }
     return(
         <>
         <ContainerGeral>
@@ -33,7 +36,7 @@ function Filmes(){
                 <CardFilmes>
 
                     <ContainerFilmes1>
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToMulherGato}>
                             <ImagemFilmes src={mulherGato}/>
                         </BotaoFilmes>
 

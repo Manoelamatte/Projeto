@@ -16,8 +16,8 @@ export const TituloHeader = styled.h2`
 `
 
 export const ImagemMenu = styled.img`
-    width: 04%;
-    height: 40%;
+    width: 46%;
+    height: 60%;
     margin: 10px;
 `
 
@@ -39,4 +39,25 @@ export const BotaoHeader = styled.button`
     cursor: pointer;
     color: white;
     box-shadow: 0px 10px 40px -12px  #3D0000;
+`
+
+export const TituloMenu = styled.h2`
+    background-color:  rgb(228, 0, 0);
+    color: white;
+    width: 65%;
+    padding-left: 10px;  
+`
+
+export const IconesMenu = styled.img`
+    width: 30px;
+    height: 30px;
+`
+
+export const BotaoMenu = styled.button`
+    border: none;
+    width:100vw;
+    padding: 15px;
+    cursor: pointer;
+    color:  #950101;
+    background-color: transparent;
 `
