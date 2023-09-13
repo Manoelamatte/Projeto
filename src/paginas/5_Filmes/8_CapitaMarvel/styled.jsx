@@ -17,25 +17,42 @@ export const FilmeCard2 = styled.div`
     justify-content: space-between;
     flex-direction: row;
 `
+export const CardCenas = styled.div`
+    width: 75vw;
+    display: flex;
+    background: #ffffff;
+    height: 100%;
+    margin: 10px;
+    flex-direction: column;
+`
+
 export const CardInformacoes = styled.div`
     width: 25vw;
     display: flex;
-    background: black;
+    background: #ffffff;
     height: 100%;
-    margin: 20px;
-    border-radius: 10%;
+    margin: 10px;
+    border-radius: 20px;
     flex-direction: column;
 `
 
 export const TituloInfo = styled.h2`
-    color: white;
-    margin-left: 95px;
+    color: #000000;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 `
 
 export const Textinhos = styled.p`
-    color: white;
+    color: #000000;
     font-size: 12pt;
     margin: 12px;
    flex-direction: column;
    text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+`
+
+export const Poster = styled.img`
+    width: 50%;
+    height: 40%;
+    margin-left: 80px;
 `

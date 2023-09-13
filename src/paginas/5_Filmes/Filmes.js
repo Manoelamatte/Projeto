@@ -20,13 +20,26 @@ function Filmes(){
         navigate('/capitamarvel')
     }
 
-    const goToMulherMaravilha = ()=>{
-        navigate('mulhermaravilha')
+    const goToMulherGato =()=>{
+        navigate('/mulhergato')
     }
 
-   const goToMulherGato = ()=>{
-    navigate('mulhergato')
-   }
+    const goToQuarteto =()=>{
+        navigate('/quartetofantastico')
+    }
+
+    const goToHomemFerro = ()=>{
+        navigate('/homemferro')
+    }
+
+    const goToHomemFerro2 = ()=>{
+        navigate('/homemferro2')
+    }
+
+    const goToMulherMaravilha = ()=>{
+        navigate('/mulhermaravilha')
+    }
+
     return(
         <>
         <ContainerGeral>
@@ -40,15 +53,15 @@ function Filmes(){
                             <ImagemFilmes src={mulherGato}/>
                         </BotaoFilmes>
 
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToQuarteto}>
                             <ImagemFilmes src={quartetofantatisco}/>
                         </BotaoFilmes>
 
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToHomemFerro}>
                             <ImagemFilmes src={homemFerro1}/>
                         </BotaoFilmes>
 
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToHomemFerro2}>
                             <ImagemFilmes src={homemFerro2}/>
                         </BotaoFilmes>
                     </ContainerFilmes1>

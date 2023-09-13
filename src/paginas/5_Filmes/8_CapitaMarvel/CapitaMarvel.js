@@ -1,8 +1,9 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Textinhos, TituloInfo } from "./styled"
+import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "./styled"
 import fundocapitaMarvel from "../../../assets/fundocapitaMarvel.png"
 import capitaMarvelFundo from "../../../assets/capitaMarvelFundo.jpg"
+import capitaMarvel from "../../../assets/capitaMarvel.jpg"
 
 function CapitaMarvel(){
     return(
@@ -14,11 +15,18 @@ function CapitaMarvel(){
            </FilmeCard1>
 
            <FilmeCard2>
-            oi
+
+                <CardCenas>
+                    oi
+                </CardCenas>
+
                  <CardInformacoes>
+
                     <TituloInfo>
                         Ficha Técnica
                     </TituloInfo>
+
+                    <Poster src={capitaMarvel}/>
 
                     <Textinhos>
                         Título Original: Captain Marvel
@@ -69,6 +77,14 @@ function CapitaMarvel(){
 
                     <Textinhos>
                         Atores Principais: Brie Larson (Carol Danvers), Samuel L. Jackson (Nick Fury), Ben Mendelsohn (Talos), Djimon Hounsou (Korath), Lee Pace (Ronan), Lashana Lynch (Maria Rambeau), Gemma Chan (Doutora Minerva), Annette Bening (Inteligência Suprema), Clark Gregg (Agente Phil Coulson) e Jude Law (Yon-Rogg)
+                    </Textinhos>
+
+                    <Textinhos>
+                         Gênero: Ação e ficção científica 
+                    </Textinhos>
+
+                    <Textinhos>
+                       Duração: 2h 4m 
                     </Textinhos>
                  </CardInformacoes>
            </FilmeCard2>

@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
 import Home from "../paginas/1_Home/Home"
 import Login from "../paginas/2_Login/Login"
 import Cadastro from "../paginas/3_Cadastro/Cadastro"
@@ -9,6 +9,9 @@ import Erro from "../paginas/6_Erro/Erro"
 import Publicacao from "../paginas/7_Publicacao/Publicacao"
 import MulherMaravilha from "../paginas/5_Filmes/7_MulherMaravilha/MulherMaravilha"
 import MulherGato from "../paginas/5_Filmes/1_MulherGato/MulherGato"
+import Quartetofantatisco from "../paginas/5_Filmes/2_QuartetoFantastico/QuartetoFantastico"
+import HomemFerro from "../paginas/5_Filmes/3_HomemFerro/HomemFerro"
+import HomemFerro2 from "../paginas/5_Filmes/4_HomemFerro2/HomemFerro2"
 
 function Rotas(){
     return(
@@ -22,6 +25,9 @@ function Rotas(){
                 <Route path="publicacao" element={<Publicacao/>}/>
                 <Route path="filmes" element={<Filmes/>}/>
                 <Route path="mulhergato" element={<MulherGato/>}/>
+                <Route path="quartetofantastico" element={<Quartetofantatisco/>}/>
+                <Route path="homemferro" element={<HomemFerro/>}/>
+                <Route path="homemferro2" element={<HomemFerro2/>}/>
                 <Route path="mulhermaravilha" element={<MulherMaravilha/>}/>
                 <Route path="capitamarvel" element={<CapitaMarvel/>}/>
                 {/* <Route path="*" element={<Erro/>}/> */}
