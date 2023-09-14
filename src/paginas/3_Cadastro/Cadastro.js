@@ -33,6 +33,9 @@ function Cadastro(){
                         </TitutoCadastro>
 
                         <Textfield>
+                             <Input type="text" name="nome" placeholder="nome">
+                            </Input>
+
                             <Input  
                             type="text" name="email" placeholder="email"> 
                             </Input>
@@ -41,8 +44,6 @@ function Cadastro(){
                             type="password" name="senha" placeholder="senha">
                             </Input>
 
-                            <Input type="password" name="senha" placeholder="confirme a senha">
-                            </Input>
                         </Textfield>
 
                         <BotaoCadastro onClick={goToLogin}>
