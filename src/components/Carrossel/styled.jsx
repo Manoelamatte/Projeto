@@ -4,7 +4,7 @@ export const Content = styled.div`
     height: 650px;
     width: 100%;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     top: 10%;
     left: 0%;
 `

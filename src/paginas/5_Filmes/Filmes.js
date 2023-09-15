@@ -1,4 +1,4 @@
-import { ContainerCenter, ContainerGeral } from "../../styledGlobal"
+import { Container3, ContainerCenter, ContainerGeral, ContainerGeral2 } from "../../styledGlobal"
 import { BotaoFilmes, CardFilmes, ContainerFilmes1, ContainerFilmes2, ImagemFilmes } from "./styled"
 import posterMulherMaravilha from "../../assets/posterMulherMaravilha.jpg"
 import capitaMarvel from "../../assets/capitaMarvel.jpg"
@@ -10,7 +10,7 @@ import quartetofantatisco from "../../assets/quartetofantastico.jpg"
 import ligadaJustica from "../../assets/ligadaJustica.jpg"
 import Header2 from "../../components/Header/Header2"
 import { useNavigate } from "react-router-dom"
-import MulherMaravilha from "./7_MulherMaravilha/MulherMaravilha"
+import Carousel from "../../components/Carousel/Carousel"
 
 function Filmes(){
 
@@ -42,8 +42,10 @@ function Filmes(){
 
     return(
         <>
-        <ContainerGeral>
+        <Container3>
             <Header2/>
+
+            <Carousel/>
 
             <ContainerCenter>
                 <CardFilmes>
@@ -88,7 +90,7 @@ function Filmes(){
 
                 </CardFilmes>
             </ContainerCenter>
-        </ContainerGeral>
+        </Container3>
         </>
     )
 }

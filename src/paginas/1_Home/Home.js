@@ -48,8 +48,9 @@ function Home(){
             </div>
             </Content>
 
+                
 
-                {/* <ContainerMiniDivis>
+                 <ContainerMiniDivis>
                     <MiniDivis>
                        
                     </MiniDivis>
@@ -61,7 +62,7 @@ function Home(){
                     <MiniDivis>
                     
                     </MiniDivis>
-                </ContainerMiniDivis> */}
+                </ContainerMiniDivis> 
 
    
         </ContainerGeral2>

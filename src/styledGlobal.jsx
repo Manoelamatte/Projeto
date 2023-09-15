@@ -23,6 +23,7 @@ export const ContainerGeral2 = styled.div`
     width: 100%;
     height: 100%;
     background-image: url(${Fundo});
+    
 `
 
 export const ContainerCenter = styled.div`
@@ -33,9 +34,10 @@ export const ContainerCenter = styled.div`
 `
 
 export const Container3 = styled.div`
-    width: 100vw;
-    height: 150vh;
+  justify-content: space-between;
     display: flex;
     flex-direction: column;
-    background-image:url(${Fundo});
+    width: 100%;
+    height: 100%;
+    background-color: black;
 `

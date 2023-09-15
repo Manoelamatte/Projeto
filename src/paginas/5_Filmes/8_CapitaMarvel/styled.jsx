@@ -29,11 +29,12 @@ export const CardCenas = styled.div`
 export const CardInformacoes = styled.div`
     width: 25vw;
     display: flex;
-    background: #ffffff;
+    background-color: #d9d9d9;
     height: 100%;
     margin: 10px;
     border-radius: 20px;
     flex-direction: column;
+    box-shadow:  05px 5px 5px black;
 `
 
 export const TituloInfo = styled.h2`
