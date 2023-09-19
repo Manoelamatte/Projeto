@@ -33,15 +33,15 @@ function Cadastro(){
                         </TitutoCadastro>
 
                         <Textfield>
-                             <Input type="text" name="nome" placeholder="nome">
+                             <Input type="text" name="nome" placeholder="nome" required>
                             </Input>
 
                             <Input  
-                            type="text" name="email" placeholder="email"> 
+                            type="text" name="email" placeholder="email" required> 
                             </Input>
 
                             <Input 
-                            type="password" name="senha" placeholder="senha">
+                            type="password" name="senha" placeholder="senha" required>
                             </Input>
 
                         </Textfield>
