@@ -3,16 +3,44 @@ import { CardVermelho, Cardbranco, ContainerCard, Input } from "../3_Cadastro/st
 import { BotaoDireita, BotaoLogin, ImagemDireita, TextfieldLogin, TextoDireita, Titulo1, Titulo2 } from "./styled"
 import imagemLogin from "../../assets/imagemLogin.png"
 import { useNavigate } from "react-router-dom"
+import { useState } from "react"
+import axios from "axios"
 
 function Login(){
 
-    const navigate = useNavigate()
-    const goToCadastro = ()=>{
-        navigate('/cadastro')
+    const [email, setEmail] = useState('')
+    const [senha, setSenha] = useState('')
+
+
+    const saveUserinfoLocalStorage = (token)=>{
+        localStorage.setItem('token', token)
+        localStorage.setItem('email', email)
     }
 
-    const goToPrincipal = ()=>{
-        navigate('/principal')
+    const handleSubmit = (e)=>{
+        e.preventDefault()
+
+
+        const credencials = {email, senha}
+
+        axios.post('http://localhost:3008/login', credencials,{
+            headers:{
+                'Content-Type': 'application/json',
+
+            }
+        })
+        .then(response =>{
+            alert(response.data.message)
+            saveUserinfoLocalStorage(response.data.token)
+            navigate('/principal')
+        })
+        .catch(error => console.log(error))
+    }
+
+    const navigate = useNavigate()
+
+    const goToCadastro = ()=>{
+        navigate('/cadastro')
     }
 
 
@@ -32,18 +60,20 @@ function Login(){
                             Seja Bem Vindo de Volta!
                          </Titulo2>
 
+                    <form onSubmit={handleSubmit}>
                         <TextfieldLogin>
-                            <Input type="text" name="email" placeholder="email">
+                            <Input type="text" name="email" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}>
                             </Input>
 
-                            <Input type="password" name="senha" placeholder="senha">
+                            <Input type="password" name="senha" placeholder="senha" value={senha} onChange={(e)=>setSenha(e.target.value)}>
                             </Input>
                         </TextfieldLogin>
 
-                        <BotaoLogin onClick={goToPrincipal}>
+                        <BotaoLogin type="submit">
                             Entrar
                         </BotaoLogin>
 
+                    </form>
                     </Cardbranco>
   
                     <CardVermelho>

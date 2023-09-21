@@ -2,11 +2,8 @@ import Header from "../../components/Header/Header"
 import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
 import { ContainerMiniDivis, Divisinhas, InputHome, MiniDivis } from "./styled"
 import style from "./style.css"
-import Marvel from "../../assets/Marvel.jpg"
-import MarvelH from "../../assets/MarvelH.png"
-import dc from "../../assets/dc.jpg"
-import DcH from "../../assets/DcH.png"
 import { Content, Slides } from "../../components/Carrossel/styled"
+import Carrossel from "../../components/Carrossel/Carrossel"
 
 
 
@@ -16,7 +13,7 @@ function Home(){
         <ContainerGeral2>
             <Header/>
                 
-           <Content>
+           {/* <Content>
                 <Slides>
                 <InputHome type="radio" name="slide" id="slide1" checked/>
                 <InputHome type="radio" name="slide" id="slide2"/>
@@ -46,9 +43,9 @@ function Home(){
                 <label class="bar" for="slide3"></label>
                 <label class="bar" for="slide4"></label>
             </div>
-            </Content>
+            </Content> */}
 
-                
+                <Carrossel/>
 
                  <ContainerMiniDivis>
                     <MiniDivis>

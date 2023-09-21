@@ -14,3 +14,8 @@ export const Slides = styled.div`
     width: 500%;
     height: 100%;
 `
+
+export const ImagemC = styled.img`
+    width: 30vw;
+    height: 30vh;
+`
