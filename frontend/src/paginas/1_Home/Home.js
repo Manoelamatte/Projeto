@@ -1,9 +1,10 @@
 import Header from "../../components/Header/Header"
 import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
-import { ContainerMiniDivis, Divisinhas, InputHome, MiniDivis } from "./styled"
+import { ContainerMiniDivis, ContainerSobre, Divisinhas, ImagemHome, ImgH, InputHome, MiniDivis, SobreOq, TextoSobre, TitulosHome } from "./styled"
 import style from "./style.css"
 import { Content, Slides } from "../../components/Carrossel/styled"
 import Carrossel from "../../components/Carrossel/Carrossel"
+import imagemAutora from "../../assets/imagemAutora.png"
 
 
 
@@ -47,11 +48,29 @@ function Home(){
 
                 <Carrossel/>
 
+                <ContainerSobre>
+                    <SobreOq>
+                        <h1>Sobre o projeto:</h1>
+                        <TextoSobre>
+                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        </TextoSobre>
+                    </SobreOq>
+
+                    <ImagemHome>
+                        oi
+                    </ImagemHome>
+                </ContainerSobre>
+
+
                  <ContainerMiniDivis>
                     <MiniDivis>
-                       
-                    </MiniDivis>
+                        <ImgH src={imagemAutora}/>
 
+                        <TitulosHome>
+                            Sobre a autora
+                        </TitulosHome>  
+                    </MiniDivis>
+        
                     <MiniDivis>
                     
                     </MiniDivis>

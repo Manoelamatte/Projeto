@@ -1,8 +1,9 @@
 import Header2 from "../../components/Header/Header2"
 import { ContainerCenter, ContainerGeral } from "../../styledGlobal"
-import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, InputPublic, MiniContainer, TextoMiniContainer } from "./styled"
+import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, INputImagem, InputPublic, MiniContainer, TextoMiniContainer } from "./styled"
 import MascaraLogo from "../../assets/MascaraLogo.png"
 import { useNavigate } from "react-router-dom"
+import adicionarfoto from "../../assets/adicionarfoto.png"
 
 function Publicacao(){
 
@@ -30,11 +31,16 @@ function Publicacao(){
 
                     <InputPublic type="text" name="comentario" placeholder="Digite Aqui..."/>
                     
+                    <INputImagem type="file">
+                        
+                    </INputImagem>
                  
 
                     <BotaoPublicar onClick={goToPrincipal}>
                         Publicar
                     </BotaoPublicar>
+
+                  
                 </ComentariosCardPublic>
 
             </ContainerCenter>

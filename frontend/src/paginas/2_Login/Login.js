@@ -22,8 +22,8 @@ function Login(){
 
 
         const credencials = {email, senha}
-
-        axios.post('http://localhost:3008/login', credencials,{
+        axios.post('http://localhost:3008/api/auth/login', credencials,{
+            
             headers:{
                 'Content-Type': 'application/json',
 

@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const ContainerMiniDivis = styled.div`
-     width: 80vw;
-    height: 50vh;
+    width: 80vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,22 +12,58 @@ export const ContainerMiniDivis = styled.div`
 
 export const MiniDivis = styled.div`
     background-color: rgba(212, 0, 0, 1);
-    width: 20vw;
-    height: 50vh;
-    border-radius: 10%;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-`
-export const Divisinhas = styled.div`
-    background: white;
-    width: 16vw;
-    height: 44vh;
-    border-radius: 10%;
+    flex-direction: column;
 `
 
 export const InputHome = styled.input`
     display: none;
+`
+
+export const ContainerSobre = styled.div`
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tranaparent;
+`
+
+export const SobreOq = styled.div`
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+    border-radius: 10px;
+    `
+
+export const ImagemHome = styled.div`
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #691255;
+`
+
+export const TextoSobre = styled.p`
+    font-family:arial, sans-serif; 
+    text-align: justify;
+    font-size: 12pt;
+`
+
+export const TitulosHome = styled.h2`
+    color: white;
+`
+
+export const ImgH = styled.img`
+    width: 15vw;
+    height: 30vh;
+    border-radius: 100%;
 `

@@ -45,7 +45,6 @@ export const InputPublic = styled.textarea`
    }
   
 `
-
 export const CardBolinha = styled.div`
   width: 04vw;
   height: 08vh;
@@ -69,8 +68,15 @@ export const BotaoPublicar = styled.button`
   cursor: pointer;
   
 `
-
 export const ImagemMascara = styled.img`
   width: 04vw;
   height: 08vh;
+`
+export const INputImagem = styled.input`
+  margin-right: 60%;
+  margin-bottom: 10px;
+`
+
+export const ImagemInput = styled.img`
+  
 `
