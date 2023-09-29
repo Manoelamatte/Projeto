@@ -1,5 +1,5 @@
 import { Container3, ContainerCenter, ContainerGeral, ContainerGeral2 } from "../../styledGlobal"
-import { BotaoFilmes, CardFilmes, ContainerFilmes1, ContainerFilmes2, ImagemFilmes } from "./styled"
+import { BotaoFilmes, CardFilmes, ContainerFilmes1, ContainerFilmes2, ContainerFilmesGeral, Imagem, ImagemFilmes, SubtituloFilmes, TituloFilmes } from "./styled"
 import posterMulherMaravilha from "../../assets/posterMulherMaravilha.jpg"
 import capitaMarvel from "../../assets/capitaMarvel.jpg"
 import esquadraoSuicida from "../../assets/esquadraoSuicida.jpg"
@@ -11,6 +11,7 @@ import ligadaJustica from "../../assets/ligadaJustica.jpg"
 import Header2 from "../../components/Header/Header2"
 import { useNavigate } from "react-router-dom"
 import Carousel from "../../components/Carousel/Carousel"
+import vingadores from "../../assets/vingadores.png"
 
 function Filmes(){
 
@@ -45,9 +46,13 @@ function Filmes(){
         <Container3>
             <Header2/>
 
-            <Carousel/>
+            {/* <Carousel/> */}
+            <Imagem src={vingadores}/>
+            <TituloFilmes>Filmes Marvel </TituloFilmes>
+            <SubtituloFilmes>Explore os filmes utilizados no Projeto</SubtituloFilmes>
 
             <ContainerCenter>
+                <ContainerFilmesGeral>
                 <CardFilmes>
 
                     <ContainerFilmes1>
@@ -89,6 +94,7 @@ function Filmes(){
                     </ContainerFilmes2>
 
                 </CardFilmes>
+                </ContainerFilmesGeral>
             </ContainerCenter>
         </Container3>
         </>

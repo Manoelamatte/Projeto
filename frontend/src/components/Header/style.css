@@ -1,14 +1,7 @@
-
-:root{
-    --branco: #fff;
-    --rosa_punk:  #950101;
-}
-
-
 .menulateral{
     width: 0px;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(247, 236, 236);
     padding: 0px;
     position: fixed;
     top: 0;
@@ -18,11 +11,9 @@
     z-index: 2;
 }
 
-
 .menulateral:hover {
     width: 384px;
 }
-
 
 .hamburguerButton:hover +.menulateral{
     width: 384px;
@@ -34,63 +25,6 @@
     cursor: pointer;
 }
 
-.menutitulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-left: 41px;
-}
-
 ul{
     list-style-type: none;
-}
-
-ul li.item-menu a{
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px 4px ;
-    display: flex;
-    margin-bottom: 20px ;
-    line-height: 40px;
-    gap: 11px;
-}
-
-ul li.item-menu{
-    transition: .2s;
-    display: flex;
-    align-items: center;
-    margin-top: 34px;
-    margin-left: 09px;
-}
-
-ul li.item-menu a .linktexto{
-    margin-left: 20px;
-}
-
-.item-menu:hover{
-    background-color: var(--rosa_punk);
-}
-
-
-.linktxt{
-    color: #950101;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-
-}
-.item-menu:hover  .linktxt {
-    color: var(--branco);
-}
-
-.item-menu:hover .icones-menu-disque{
-    display: none;
-}
-
-.item-menu:hover .icones-menu-disque-hover{
-    display: block;
-}
-
-.icones-menu-disque-hover{
-    display: none;
 }

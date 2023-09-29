@@ -20,6 +20,7 @@ export const ImagemMenu = styled.img`
     width: 46%;
     height: 60%;
     margin: 10px;
+    
 `
 
 export const ImagemProfire = styled.img`
@@ -46,19 +47,33 @@ export const TituloMenu = styled.h2`
     background-color:  rgb(228, 0, 0);
     color: white;
     width: 65%;
-    padding-left: 10px;  
+    padding-left: 10px; 
 `
 
 export const IconesMenu = styled.img`
     width: 30px;
     height: 30px;
+    margin: 10px;
 `
 
 export const BotaoMenu = styled.button`
     border: none;
-    width:100vw;
-    padding: 15px;
+    width: 100vw;
+    padding: 20px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
     cursor: pointer;
     color:  #950101;
     background-color: transparent;
+
+    &:hover{
+        background-color: #ffb4b4;
+    }
+`
+export const Menutitulo = styled.p`
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+    
 `

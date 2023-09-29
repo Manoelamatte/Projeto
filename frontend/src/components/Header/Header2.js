@@ -1,4 +1,4 @@
-import { BotaoHeader, BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, TituloHeader, TituloMenu } from "./styled"
+import { BotaoHeader, BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, Menutitulo, TituloHeader, TituloMenu } from "./styled"
 import iconeMenu from "../../assets/iconeMenu.png"
 import heroinaIcone from "../../assets/heroinaIcone.png"
 import { useNavigate } from "react-router-dom"
@@ -24,42 +24,32 @@ function Header2() {
                 <button class="hamburguerButton"><ImagemMenu src={iconeMenu} /></button>
                 <nav class="menulateral">
 
+                
+                <Menutitulo> PÁGINAS </Menutitulo>
                     <ul>
-                        <TituloMenu>
-                            CINE FEMINISMO
-                        </TituloMenu>
-                        <li class="item-menu">
-                            <a href="#">
-                             
-                                <IconesMenu src={iconeFilmes} />
-
-                                <BotaoMenu onClick={goToFilmes}>
-                                    FILMES
-                                </BotaoMenu>
-                            </a>
-                        </li>
-
-                        <li class="item-menu">
-                            <a href="#">
-                               
-                                <IconesMenu src={casa} />
-
+                        <li >
                                 <BotaoMenu onClick={goToPrincipal}>
+                                <IconesMenu src={casa} />
                                     PÁGINA PRINCIPAL
                                 </BotaoMenu>
-                            </a>
+                        </li>
+
+                        <li >
+
+                                <BotaoMenu onClick={goToFilmes}>
+                                <IconesMenu src={iconeFilmes} />
+                                    PÁGINA FILMES
+                                </BotaoMenu>
                         </li>
                     </ul>
 
-                    <p class="menutitulo">SAIR</p>
+                    <Menutitulo> SAIR </Menutitulo>
                     <ul>
-                        <li class="item-menu">
-                            <a href="#">
-                            
-
-                                    <IconesMenu src={sair} />
-                                <span class="linktxt">LOG OUT</span>
-                            </a>
+                        <li>
+                            <BotaoMenu>
+                            <IconesMenu src={sair} />
+                                LOG OUT
+                            </BotaoMenu>
                         </li>
                     </ul>
                 </nav>
