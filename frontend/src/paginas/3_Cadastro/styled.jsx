@@ -8,7 +8,7 @@ export const ContainerCard = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin: 60px;
+    margin: 57px;
 `
 
 export const Cardbranco = styled.div`

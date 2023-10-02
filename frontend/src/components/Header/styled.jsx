@@ -7,7 +7,6 @@ export const ContainerHeader = styled.header`
     padding: 0 50px;
     height: 10%;
     justify-content: space-between;
-    
 `
 
 export const TituloHeader = styled.h2`
@@ -19,8 +18,7 @@ export const TituloHeader = styled.h2`
 export const ImagemMenu = styled.img`
     width: 46%;
     height: 60%;
-    margin: 10px;
-    
+    margin: 10px; 
 `
 
 export const ImagemProfire = styled.img`
@@ -64,16 +62,16 @@ export const BotaoMenu = styled.button`
     justify-content: start;
     display: flex;
     cursor: pointer;
-    color:  #950101;
+    color:  white;
     background-color: transparent;
 
     &:hover{
-        background-color: #ffb4b4;
+        /* background-color: #ffb4b4; */
+        background-color:  #950101;
     }
 `
 export const Menutitulo = styled.p`
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin-left: 40px;
-    
+    margin-left: 40px; 
 `

@@ -1,5 +1,5 @@
 import Header2 from "../../components/Header/Header2"
-import { ContainerCenter, ContainerGeral } from "../../styledGlobal"
+import { ContainerCenter, ContainerGeral, ContainerGeral4 } from "../../styledGlobal"
 import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, INputImagem, InputPublic, MiniContainer, TextoMiniContainer } from "./styled"
 import MascaraLogo from "../../assets/MascaraLogo.png"
 import { useNavigate } from "react-router-dom"
@@ -14,7 +14,7 @@ function Publicacao(){
 
     return(
         <>
-        <ContainerGeral>
+        <ContainerGeral4>
             <Header2/>
             <ContainerCenter>
 
@@ -44,7 +44,7 @@ function Publicacao(){
                 </ComentariosCardPublic>
 
             </ContainerCenter>
-        </ContainerGeral>
+        </ContainerGeral4>
         </>
     )
 }

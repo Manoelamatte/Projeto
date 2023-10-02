@@ -9,8 +9,6 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const ContainerGeral = styled.div`
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     background-image:url(${Fundo});
@@ -40,4 +38,11 @@ export const Container3 = styled.div`
     width: 100%;
     height: 100%;
     background-color: black;
+`
+
+export const ContainerGeral4 = styled.div`
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image:url(${Fundo});
 `

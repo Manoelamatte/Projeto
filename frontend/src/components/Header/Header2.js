@@ -6,6 +6,7 @@ import style from "./style.css"
 import iconeFilmes from "../../assets/iconeFilmes.png"
 import sair from "../../assets/sair.png"
 import casa from "../../assets/casa.png"
+import { useEffect } from "react"
 
 function Header2() {
 
@@ -16,6 +17,19 @@ function Header2() {
 
     const goToPrincipal = ()=>{
         navigate('/principal')
+    }
+
+    useEffect(()=>{
+        const token = localStorage.getItem('token')
+        if(!token){
+            navigate('/')
+        }
+    },[navigate])
+
+    const handleLogout = ()=>{
+        localStorage.removeItem('token')
+        localStorage.removeItem('email')
+        navigate('/Home')
     }
 
     return (
@@ -46,7 +60,7 @@ function Header2() {
                     <Menutitulo> SAIR </Menutitulo>
                     <ul>
                         <li>
-                            <BotaoMenu>
+                            <BotaoMenu onClick={handleLogout}>
                             <IconesMenu src={sair} />
                                 LOG OUT
                             </BotaoMenu>
