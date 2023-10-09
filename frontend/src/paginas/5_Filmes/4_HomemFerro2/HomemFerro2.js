@@ -1,7 +1,8 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, TituloInfo, Textinhos } from "../8_CapitaMarvel/styled"
-
+import WallHomemF from "../../../assets/WallHomemF.png"
+import homemFerro2 from "../../../assets/homemFerro2.jpg"
 
 function HomemFerro2(){
     return(
@@ -9,7 +10,7 @@ function HomemFerro2(){
         <ContainerGeral2>
             <Header2/>
             <FilmeCard1>
-                <ImgFilmes/>
+                <ImgFilmes src={WallHomemF}/>
             </FilmeCard1>
 
             <FilmeCard2>
@@ -22,7 +23,7 @@ function HomemFerro2(){
                       Ficha Técnica
                     </TituloInfo>
 
-                    <Poster/>
+                    <Poster src={homemFerro2}/>
 
                     <Textinhos>
                     Título original: Iron Man 2

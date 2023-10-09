@@ -4,6 +4,7 @@ import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, 
 import fundocapitaMarvel from "../../../assets/fundocapitaMarvel.png"
 import capitaMarvelFundo from "../../../assets/capitaMarvelFundo.jpg"
 import capitaMarvel from "../../../assets/capitaMarvel.jpg"
+import WallQuartF from "../../../assets/WallQuartF.png"
 
 function CapitaMarvel(){
     return(
@@ -11,7 +12,9 @@ function CapitaMarvel(){
         <ContainerGeral2>
             <Header2/>
            <FilmeCard1>
-                 <ImgFilmes src={capitaMarvelFundo}/>
+                 {/* <ImgFilmes src={capitaMarvelFundo}/> */}
+             
+                
            </FilmeCard1>
 
            <FilmeCard2>
