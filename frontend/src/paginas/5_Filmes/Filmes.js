@@ -10,7 +10,6 @@ import quartetofantatisco from "../../assets/quartetofantastico.jpg"
 import ligadaJustica from "../../assets/ligadaJustica.jpg"
 import Header2 from "../../components/Header/Header2"
 import { useNavigate } from "react-router-dom"
-import Carousel from "../../components/Carousel/Carousel"
 import vingadores from "../../assets/vingadores.png"
 
 function Filmes(){
@@ -58,18 +57,22 @@ function Filmes(){
                     <ContainerFilmes1>
                         <BotaoFilmes onClick={goToMulherGato}>
                             <ImagemFilmes src={mulherGato}/>
+                            Mulher Gato (2004)
                         </BotaoFilmes>
 
                         <BotaoFilmes onClick={goToQuarteto}>
                             <ImagemFilmes src={quartetofantatisco}/>
+                            Quarteto Fantástico (2005)
                         </BotaoFilmes>
 
                         <BotaoFilmes onClick={goToHomemFerro}>
                             <ImagemFilmes src={homemFerro1}/>
+                            Homem de Ferro (2008)
                         </BotaoFilmes>
 
                         <BotaoFilmes onClick={goToHomemFerro2}>
                             <ImagemFilmes src={homemFerro2}/>
+                            Homem de Ferro 2 (2010)
                         </BotaoFilmes>
                     </ContainerFilmes1>
 
@@ -77,18 +80,22 @@ function Filmes(){
 
                         <BotaoFilmes>
                             <ImagemFilmes src={esquadraoSuicida}/>
+                            Esquadrão Suicida (2016)
                         </BotaoFilmes>
 
                         <BotaoFilmes>
                             <ImagemFilmes src={ligadaJustica}/>
+                            
                         </BotaoFilmes>
 
                         <BotaoFilmes onClick={goToMulherMaravilha}>
                             <ImagemFilmes src={posterMulherMaravilha}/>
+                            Mulher Maravilha (2017)
                         </BotaoFilmes>
 
                         <BotaoFilmes onClick={goToCapitaMarvel}>
                             <ImagemFilmes src={capitaMarvel}/>
+                            Capitã Marvel (2019)
                         </BotaoFilmes>
 
                     </ContainerFilmes2>

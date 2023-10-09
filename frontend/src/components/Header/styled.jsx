@@ -5,7 +5,7 @@ export const ContainerHeader = styled.header`
     display: flex;
     align-items: center;
     padding: 0 50px;
-    height: 10%;
+    height: 12vh;
     justify-content: space-between;
 `
 
@@ -62,7 +62,7 @@ export const BotaoMenu = styled.button`
     justify-content: start;
     display: flex;
     cursor: pointer;
-    color:  white;
+    color:  black;
     background-color: transparent;
 
     &:hover{
@@ -74,4 +74,15 @@ export const Menutitulo = styled.p`
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-left: 40px; 
+`
+
+export const LogoCineFem = styled.img`
+    width: 16vw;
+    height: 20vh;
+`
+
+export const LogoCineBar = styled.img`
+    width: 25vw;
+    height: 30vh;
+    margin-left: 35px;
 `

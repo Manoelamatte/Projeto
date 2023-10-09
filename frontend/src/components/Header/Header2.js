@@ -1,4 +1,4 @@
-import { BotaoHeader, BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, Menutitulo, TituloHeader, TituloMenu } from "./styled"
+import { BotaoHeader, BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, Menutitulo, TituloHeader, TituloMenu } from "./styled"
 import iconeMenu from "../../assets/iconeMenu.png"
 import heroinaIcone from "../../assets/heroinaIcone.png"
 import { useNavigate } from "react-router-dom"
@@ -7,6 +7,8 @@ import iconeFilmes from "../../assets/iconeFilmes.png"
 import sair from "../../assets/sair.png"
 import casa from "../../assets/casa.png"
 import { useEffect } from "react"
+import logoCine from "../../assets/logoCine.png"
+import logoCinePreto from "../../assets/logoCinePreto.png"
 
 function Header2() {
 
@@ -29,7 +31,7 @@ function Header2() {
     const handleLogout = ()=>{
         localStorage.removeItem('token')
         localStorage.removeItem('email')
-        navigate('/Home')
+        navigate('/')
     }
 
     return (
@@ -38,7 +40,9 @@ function Header2() {
                 <button class="hamburguerButton"><ImagemMenu src={iconeMenu} /></button>
                 <nav class="menulateral">
 
+                <LogoCineBar src={logoCinePreto}/>
                 
+                                
                 <Menutitulo> PÁGINAS </Menutitulo>
                     <ul>
                         <li >
@@ -67,8 +71,9 @@ function Header2() {
                         </li>
                     </ul>
                 </nav>
-
-                <TituloHeader>CINE FEMINISMO</TituloHeader>
+{/* 
+                <TituloHeader>CINE FEMINISMO</TituloHeader> */}
+                <LogoCineFem src={logoCine}/>
 
                 <ImagemProfire src={heroinaIcone} />
             </ContainerHeader>

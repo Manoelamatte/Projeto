@@ -1,14 +1,17 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
+import WallFerro from "../../../assets/WallFerro.png"
 
 function HomemFerro(){
     return(
         <>
         <ContainerGeral2>
             <Header2/>
+
+
         <FilmeCard1>
-            <ImgFilmes/>
+            <ImgFilmes src={WallFerro}/>        
         </FilmeCard1>
 
         <FilmeCard2>

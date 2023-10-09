@@ -30,7 +30,7 @@ function Rotas(){
                 <Route path="homemferro2" element={<HomemFerro2/>}/>
                 <Route path="mulhermaravilha" element={<MulherMaravilha/>}/>
                 <Route path="capitamarvel" element={<CapitaMarvel/>}/>
-                {/* <Route path="*" element={<Erro/>}/> */}
+                <Route path="*" element={<Erro/>}/>
             </Routes>
         </BrowserRouter>
         </>

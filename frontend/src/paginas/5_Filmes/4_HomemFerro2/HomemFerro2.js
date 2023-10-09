@@ -2,6 +2,7 @@ import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, TituloInfo, Textinhos } from "../8_CapitaMarvel/styled"
 
+
 function HomemFerro2(){
     return(
         <>

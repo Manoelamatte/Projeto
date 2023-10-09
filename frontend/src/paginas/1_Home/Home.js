@@ -1,11 +1,15 @@
 import Header from "../../components/Header/Header"
 import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
-import { ContainerMiniDivis, ContainerSobre, Divisinhas, ImagemHome, ImgH, InputHome, MiniDivis, SobreOq, TextoSobre, TitulosHome } from "./styled"
+import { ContainerMiniDivis, ContainerSobre, Divisinhas, ImagemHome, ImgH, ImgHomeSobre, InputHome, MiniDivis, SobreOq, TextoSobre, TitulosHome } from "./styled"
 import style from "./style.css"
 import { Content, Slides } from "../../components/Carrossel/styled"
 import Carrossel from "../../components/Carrossel/Carrossel"
 import imagemAutora from "../../assets/imagemAutora.png"
-
+import Marvel from "../../assets/Marvel.jpg"
+import MarvelH from "../../assets/MarvelH.png"
+import dcW from "../../assets/dcW.jpg"
+import DcH from "../../assets/DcH.png"
+import heroinasMavelHQ from "../../assets/heroinasMavelHQ.jpg"
 
 
 function Home(){
@@ -14,9 +18,9 @@ function Home(){
         <ContainerGeral2>
             <Header/>
                 
-           {/* <Content>
+           <Content>
                 <Slides>
-                <InputHome type="radio" name="slide" id="slide1" checked/>
+                <InputHome type="radio" name="slide" id="slide1" />
                 <InputHome type="radio" name="slide" id="slide2"/>
                 <InputHome type="radio" name="slide" id="slide3"/>
                 <InputHome type="radio" name="slide" id="slide4"/>
@@ -30,7 +34,7 @@ function Home(){
                 </div>
 
                 <div class="slide">
-                    <img src={dc} alt="dc"/>
+                    <img src={dcW} alt="dc"/>
                 </div>
 
                 <div class="slide">
@@ -44,9 +48,9 @@ function Home(){
                 <label class="bar" for="slide3"></label>
                 <label class="bar" for="slide4"></label>
             </div>
-            </Content> */}
+            </Content>
 
-                <Carrossel/>
+                {/* <Carrossel/> */}
 
                 <ContainerSobre>
                     <SobreOq>
@@ -57,8 +61,9 @@ function Home(){
                     </SobreOq>
 
                     <ImagemHome>
-                        oi
+                        <ImgHomeSobre src={heroinasMavelHQ}/>
                     </ImagemHome>
+                       
                 </ContainerSobre>
 
 

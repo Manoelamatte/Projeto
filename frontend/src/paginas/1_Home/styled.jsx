@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const ContainerMiniDivis = styled.div`
     width: 80vw;
-    height: 90vh;
+    height: 140vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,7 @@ export const ContainerSobre = styled.div`
     justify-content: center;
     align-items: center;
     background-color: tranaparent;
+    margin-top: 10%;
 `
 
 export const SobreOq = styled.div`
@@ -52,6 +53,11 @@ export const ImagemHome = styled.div`
     background-color: #691255;
 `
 
+export const ImgHomeSobre = styled.img`
+    height: 30vw;
+    width: 90vw;
+`
+
 export const TextoSobre = styled.p`
     font-family:arial, sans-serif; 
     text-align: justify;
@@ -64,6 +70,6 @@ export const TitulosHome = styled.h2`
 
 export const ImgH = styled.img`
     width: 15vw;
-    height: 30vh;
+    height: 40vh;
     border-radius: 100%;
 `

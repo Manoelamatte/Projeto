@@ -1,8 +1,7 @@
 import styled from "styled-components"
 
 export const ImgFilmes = styled.img`
-    width: 100vw;
-    height: 100vh;
+   width: 98.7vw;
 `
 
 export const FilmeCard1 = styled.div`

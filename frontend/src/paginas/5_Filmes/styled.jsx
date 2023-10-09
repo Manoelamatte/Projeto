@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const CardFilmes = styled.div`
   width: 70vw;
-  height: 80vh;
+  height: 85vh;
   // background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -46,6 +46,11 @@ export const BotaoFilmes = styled.button`
   all: unset;
   cursor: pointer;
   outline: revert;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 
   &:hover{
     background-color: #d97878;
