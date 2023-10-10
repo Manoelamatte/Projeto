@@ -1,7 +1,7 @@
 import Header2 from "../../../components/Header/Header2"
 import { Textinho } from "../../../components/Post/styled"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BotaoStreaming, CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
 import mulherGato from "../../../assets/mulherGato.jpg"
 import WallMulherG from "../../../assets/WallMulherG.png"
 
@@ -15,73 +15,75 @@ function MulherGato(){
             <ImgFilmes src={WallMulherG}/>
         </FilmeCard1>
 
+            <BotaoStreaming>HBO MAX</BotaoStreaming>
+
         <FilmeCard2>
             <CardCenas> 
                 oi
             </CardCenas>
 
             <CardInformacoes>
-                <TituloInfo>
-                    Ficha Técnica
-                </TituloInfo>
+                    <TituloInfo>
+                        Ficha Técnica
+                    </TituloInfo>
 
-                <Poster src={mulherGato}/>
-
-               <Textinhos>
-                 Título original: Catwoman
-               </Textinhos>
-
-               <Textinhos>
-                    Idioma Original: Inglês 
-               </Textinhos>
+                    <Poster src={mulherGato}/>
 
                 <Textinhos>
-                 Título da tradução brasileira: Mulher-Gato
+                    Título original: Catwoman
                 </Textinhos>
 
                 <Textinhos>
-                  Lançamento: 19 de julho de 2004
+                        Idioma Original: Inglês 
                 </Textinhos>
 
-                <Textinhos>
-                 País: Estados Unidos da América
-                </Textinhos>
+                    <Textinhos>
+                    Título da tradução brasileira: Mulher-Gato
+                    </Textinhos>
 
-                <Textinhos>
-                 Direção: Jean Christophe Comar
-                </Textinhos>
+                    <Textinhos>
+                    Lançamento: 19 de julho de 2004
+                    </Textinhos>
 
-                <Textinhos>
-                 Roteiro: John Rogers, John D.Brancato e Michael Ferris
-                </Textinhos>
+                    <Textinhos>
+                    País: Estados Unidos da América
+                    </Textinhos>
 
-                <Textinhos>
-                    Edição: Sylvie Landra 
-                </Textinhos>
+                    <Textinhos>
+                    Direção: Jean Christophe Comar
+                    </Textinhos>
 
-                <Textinhos>
-                    Fotografia: Thierry Arbogast 
-                </Textinhos>
+                    <Textinhos>
+                    Roteiro: John Rogers, John D.Brancato e Michael Ferris
+                    </Textinhos>
 
-                <Textinhos>
-                    Música: Klaus Badelt
-                </Textinhos>
+                    <Textinhos>
+                        Edição: Sylvie Landra 
+                    </Textinhos>
 
-                <Textinhos>
-                    Produção: Denise Di Novi, Edward L e McDonnell
-                </Textinhos>
+                    <Textinhos>
+                        Fotografia: Thierry Arbogast 
+                    </Textinhos>
 
-                <Textinhos>
-                    Atores principais: Halle Berry (Patience Phillips/Mulher-Gato), Benjamin Bratt (Tom Lone), Sharon Stone (Laurel Hedare), Lambert Wilson (George Hedare), Frances Conroy (Ophelia Powers/Cat Lady), Alex Borstein (Sally), Michael Massee (Armando), Byron Mann (Wesley), Kim Smith (Drina), Peter Wingfield (Dr.Ivan Slavicky) e Berend McKenzie (Lance).
-                </Textinhos>
+                    <Textinhos>
+                        Música: Klaus Badelt
+                    </Textinhos>
 
-                <Textinhos>
-                 Gênero: Ação e fantasia
-                </Textinhos>
+                    <Textinhos>
+                        Produção: Denise Di Novi, Edward L e McDonnell
+                    </Textinhos>
 
-                <Textinhos>
-                    Duração: 1h 44m
-                </Textinhos>
+                    <Textinhos>
+                        Atores principais: Halle Berry (Patience Phillips/Mulher-Gato), Benjamin Bratt (Tom Lone), Sharon Stone (Laurel Hedare), Lambert Wilson (George Hedare), Frances Conroy (Ophelia Powers/Cat Lady), Alex Borstein (Sally), Michael Massee (Armando), Byron Mann (Wesley), Kim Smith (Drina), Peter Wingfield (Dr.Ivan Slavicky) e Berend McKenzie (Lance).
+                    </Textinhos>
+
+                    <Textinhos>
+                    Gênero: Ação e fantasia
+                    </Textinhos>
+
+                    <Textinhos>
+                        Duração: 1h 44m
+                    </Textinhos>
             </CardInformacoes>
         </FilmeCard2>
      </ContainerGeral2>

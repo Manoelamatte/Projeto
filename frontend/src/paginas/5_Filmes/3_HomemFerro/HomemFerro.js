@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BotaoStreaming, CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
 import WallFerro from "../../../assets/WallFerro.png"
 import homemFerro1 from "../../../assets/homemFerro1.jpg"
 
@@ -14,6 +14,9 @@ function HomemFerro(){
         <FilmeCard1>
             <ImgFilmes src={WallFerro}/>        
         </FilmeCard1>
+
+          
+            <BotaoStreaming>DISNEY +</BotaoStreaming>
 
         <FilmeCard2>
             <CardCenas>

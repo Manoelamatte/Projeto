@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ImgFilmes = styled.img`
-   width: 98.75vw;
+   width: 98.7vw;
 `
 
 export const FilmeCard1 = styled.div`
@@ -22,6 +22,7 @@ export const CardCenas = styled.div`
     background: #ffffff;
     height: 100%;
     margin: 10px;
+    margin-top: 70px;
     flex-direction: column;
 `
 
@@ -34,6 +35,7 @@ export const CardInformacoes = styled.div`
     border-radius: 20px;
     flex-direction: column;
     box-shadow:  05px 5px 5px black;
+    margin-top: 70px;
 `
 
 export const TituloInfo = styled.h2`
@@ -55,4 +57,23 @@ export const Poster = styled.img`
     width: 50%;
     height: 40%;
     margin-left: 80px;
+`
+
+export const BotaoStreaming= styled.button`
+    background-color: rgba(255, 0, 0, 1);
+    width: 155px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin-top: -90px;
+    color: white;
+    margin-left: 20%;
+    font-size: 12pt;
+`
+
+export const TituloFilmes = styled.h1`
+    color: white;
+    font-size: 14pt;
+    margin-top: -100px;
 `

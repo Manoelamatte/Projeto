@@ -1,7 +1,7 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import WallQuartF from "../../../assets/WallQuartF.png"
-import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BotaoStreaming, CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
 import quartetofantatisco from "../../../assets/quartetofantastico.jpg"
 
 function Quartetofantatisco(){
@@ -13,6 +13,8 @@ function Quartetofantatisco(){
                     <FilmeCard1>
                         <ImgFilmes src={WallQuartF}/>
                     </FilmeCard1>
+
+                            <BotaoStreaming>DISNEY +</BotaoStreaming>
 
                     <FilmeCard2>
                         <CardCenas>

@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BotaoStreaming, CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
 import porterMulherMaravilha from "../../../assets/posterMulherMaravilha.jpg"
 import WallMulherM from "../../../assets/WallMulherM.png"
 
@@ -12,6 +12,8 @@ function MulherMaravilha(){
             <FilmeCard1>
                 <ImgFilmes src={WallMulherM}/>
             </FilmeCard1>
+
+                <BotaoStreaming>HBO MAX</BotaoStreaming>
 
             <FilmeCard2>
                 <CardCenas>
