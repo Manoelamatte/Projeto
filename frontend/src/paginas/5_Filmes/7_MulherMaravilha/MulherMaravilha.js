@@ -5,6 +5,12 @@ import porterMulherMaravilha from "../../../assets/posterMulherMaravilha.jpg"
 import WallMulherM from "../../../assets/WallMulherM.png"
 
 function MulherMaravilha(){
+
+    
+    // function goToStreaming(){
+    //     window.location.href = "https://www.hbomax.com/br/pt"
+    // }
+
     return(
         <>
         <ContainerGeral2>

@@ -12,6 +12,7 @@ import MulherGato from "../paginas/5_Filmes/1_MulherGato/MulherGato"
 import Quartetofantatisco from "../paginas/5_Filmes/2_QuartetoFantastico/QuartetoFantastico"
 import HomemFerro from "../paginas/5_Filmes/3_HomemFerro/HomemFerro"
 import HomemFerro2 from "../paginas/5_Filmes/4_HomemFerro2/HomemFerro2"
+import EsquadraoSuicida from "../paginas/5_Filmes/5_EsquadraoSuicida/EsquadraoSuicida"
 
 function Rotas(){
     return(
@@ -28,6 +29,7 @@ function Rotas(){
                 <Route path="quartetofantastico" element={<Quartetofantatisco/>}/>
                 <Route path="homemferro" element={<HomemFerro/>}/>
                 <Route path="homemferro2" element={<HomemFerro2/>}/>
+                <Route path="esquadraosuicida" element={<EsquadraoSuicida/>}/>
                 <Route path="mulhermaravilha" element={<MulherMaravilha/>}/>
                 <Route path="capitamarvel" element={<CapitaMarvel/>}/>
                 <Route path="*" element={<Erro/>}/>
