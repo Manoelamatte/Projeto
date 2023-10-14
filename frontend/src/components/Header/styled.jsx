@@ -7,6 +7,8 @@ export const ContainerHeader = styled.header`
     padding: 0 50px;
     height: 12vh;
     justify-content: space-between;
+    // position: fixed;
+    // width: 100vw;
 `
 
 export const TituloHeader = styled.h2`

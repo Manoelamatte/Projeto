@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, TituloInfo, Textinhos, BotaoStreaming } from "../8_CapitaMarvel/styled"
+import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, TituloInfo, Textinhos, BotaoStreaming, ContainerCenas, MiniCardTitulo, BolinhaCenas, TituloCenas } from "../8_CapitaMarvel/styled"
 import WallHomemF from "../../../assets/WallHomemF.png"
 import homemFerro2 from "../../../assets/homemFerro2.jpg"
 
@@ -15,10 +15,44 @@ function HomemFerro2(){
 
             <BotaoStreaming>DISNEY +</BotaoStreaming>
 
+            {/* .............................. */}
+
             <FilmeCard2>
                 <CardCenas>
-                    oi
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas></BolinhaCenas>
+
+                            <TituloCenas>oi</TituloCenas>
+                        </MiniCardTitulo>
+                    </ContainerCenas>
+
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas></BolinhaCenas>
+
+                            <TituloCenas>oi</TituloCenas>
+                        </MiniCardTitulo>
+                    </ContainerCenas>
+
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas></BolinhaCenas>
+
+                            <TituloCenas>oi</TituloCenas>
+                        </MiniCardTitulo>
+                    </ContainerCenas>
+
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas></BolinhaCenas>
+
+                            <TituloCenas>oi</TituloCenas>
+                        </MiniCardTitulo>
+                    </ContainerCenas>
                 </CardCenas>
+
+                {/* card informações */}
 
                 <CardInformacoes>
                     <TituloInfo>

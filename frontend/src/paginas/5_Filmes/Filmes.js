@@ -1,4 +1,4 @@
-import { Container3, ContainerCenter, ContainerGeral, ContainerGeral2 } from "../../styledGlobal"
+import { Container3, ContainerCenter } from "../../styledGlobal"
 import { BotaoFilmes, CardFilmes, ContainerFilmes1, ContainerFilmes2, ContainerFilmesGeral, Imagem, ImagemFilmes, SubtituloFilmes, TituloFilmes } from "./styled"
 import posterMulherMaravilha from "../../assets/posterMulherMaravilha.jpg"
 import capitaMarvel from "../../assets/capitaMarvel.jpg"
@@ -7,10 +7,10 @@ import homemFerro1 from "../../assets/homemFerro1.jpg"
 import homemFerro2 from "../../assets/homemFerro2.jpg"
 import mulherGato from "../../assets/mulherGato.jpg"
 import quartetofantatisco from "../../assets/quartetofantastico.jpg"
-import ligadaJustica from "../../assets/ligadaJustica.jpg"
 import Header2 from "../../components/Header/Header2"
 import { useNavigate } from "react-router-dom"
 import vingadores from "../../assets/vingadores.png"
+import deadpoolPoster from "../../assets/deadpoolPoster.jpg"
 
 function Filmes(){
 
@@ -38,6 +38,14 @@ function Filmes(){
 
     const goToMulherMaravilha = ()=>{
         navigate('/mulhermaravilha')
+    }
+
+    const goToDeadpool = ()=>{
+        navigate('/deadpool')
+    }
+
+    const goToEsquadrao = ()=>{
+        navigate('/esquadraosuicida')
     }
 
     return(
@@ -78,14 +86,14 @@ function Filmes(){
 
                     <ContainerFilmes2>
 
-                        <BotaoFilmes>
+                        <BotaoFilmes onClick={goToEsquadrao}>
                             <ImagemFilmes src={esquadraoSuicida}/>
                             Esquadrão Suicida (2016)
                         </BotaoFilmes>
 
-                        <BotaoFilmes>
-                            <ImagemFilmes src={ligadaJustica}/>
-                            
+                        <BotaoFilmes onClick={goToDeadpool}>
+                            <ImagemFilmes src={deadpoolPoster}/>
+                            Deadpool (2016)
                         </BotaoFilmes>
 
                         <BotaoFilmes onClick={goToMulherMaravilha}>

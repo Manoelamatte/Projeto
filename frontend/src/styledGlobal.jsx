@@ -12,6 +12,7 @@ export const ContainerGeral = styled.div`
     display: flex;
     flex-direction: column;
     background-image:url(${Fundo});
+    height: 100vh;
 `
 
 export const ContainerGeral2 = styled.div`

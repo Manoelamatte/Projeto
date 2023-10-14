@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ImgFilmes = styled.img`
-   width: 98.7vw;
+   width: 98.75vw;
 `
 
 export const FilmeCard1 = styled.div`
@@ -19,19 +19,22 @@ export const FilmeCard2 = styled.div`
 export const CardCenas = styled.div`
     width: 75vw;
     display: flex;
-    background: #ffffff;
+    background: transparent;
     height: 100%;
     margin: 10px;
     margin-top: 70px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export const CardInformacoes = styled.div`
     width: 25vw;
     display: flex;
-    background-color: #d9d9d9;
+    // background-color: #d9d9d9;
+    background-color: white;
     height: 100%;
-    margin: 10px;
+    margin: 30px;
     border-radius: 20px;
     flex-direction: column;
     box-shadow:  05px 5px 5px black;
@@ -76,4 +79,38 @@ export const TituloFilmes = styled.h1`
     color: white;
     font-size: 14pt;
     margin-top: -100px;
+`
+
+export const ContainerCenas = styled.div`
+    width: 60vw;
+    display: flex;
+    background: white;
+    height: 40vw;
+    border-radius: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow:  05px 5px 5px black;
+`
+
+export const MiniCardTitulo = styled.div`
+  width: 55vw;
+  height: 10vh;
+  background-color: darkred;
+  margin-top: 20px;
+  border-radius: 30px;
+  justify-content: start;
+  display: flex;
+`;
+
+export const BolinhaCenas = styled.div`
+  width: 04vw;
+  height: 08vh;
+  border-radius: 100%;
+  margin: 05px;
+  background-color: white;
+`
+
+export const TituloCenas = styled.h2`
+  color: white;
+   
 `

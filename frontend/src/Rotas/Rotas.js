@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "../paginas/1_Home/Home"
 import Login from "../paginas/2_Login/Login"
 import Cadastro from "../paginas/3_Cadastro/Cadastro"
@@ -13,6 +13,7 @@ import Quartetofantatisco from "../paginas/5_Filmes/2_QuartetoFantastico/Quartet
 import HomemFerro from "../paginas/5_Filmes/3_HomemFerro/HomemFerro"
 import HomemFerro2 from "../paginas/5_Filmes/4_HomemFerro2/HomemFerro2"
 import EsquadraoSuicida from "../paginas/5_Filmes/5_EsquadraoSuicida/EsquadraoSuicida"
+import Deadpool from "../paginas/5_Filmes/6_Deadpool/Deadpool"
 
 function Rotas(){
     return(
@@ -30,6 +31,7 @@ function Rotas(){
                 <Route path="homemferro" element={<HomemFerro/>}/>
                 <Route path="homemferro2" element={<HomemFerro2/>}/>
                 <Route path="esquadraosuicida" element={<EsquadraoSuicida/>}/>
+                <Route path="deadpool" element={<Deadpool/>}/>
                 <Route path="mulhermaravilha" element={<MulherMaravilha/>}/>
                 <Route path="capitamarvel" element={<CapitaMarvel/>}/>
                 <Route path="*" element={<Erro/>}/>

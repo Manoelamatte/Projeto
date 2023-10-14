@@ -1,7 +1,7 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import WallQuartF from "../../../assets/WallQuartF.png"
-import { BotaoStreaming, CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import quartetofantatisco from "../../../assets/quartetofantastico.jpg"
 
 function Quartetofantatisco(){
@@ -14,12 +14,59 @@ function Quartetofantatisco(){
                         <ImgFilmes src={WallQuartF}/>
                     </FilmeCard1>
 
-                            <BotaoStreaming>DISNEY +</BotaoStreaming>
+                    <BotaoStreaming>DISNEY +</BotaoStreaming>
+
+
+
+              {/* ......................... */}
 
                     <FilmeCard2>
                         <CardCenas>
-                            oi
+                            <ContainerCenas>
+                                <MiniCardTitulo>
+                                    <BolinhaCenas></BolinhaCenas>
+
+                                    <TituloCenas>oi</TituloCenas>
+                                </MiniCardTitulo>
+                            </ContainerCenas>
+
+
+                            <ContainerCenas>
+                                <MiniCardTitulo>
+                                    <BolinhaCenas></BolinhaCenas>
+
+                                    <TituloCenas>oi</TituloCenas>
+                                </MiniCardTitulo>
+                            </ContainerCenas>
+
+                            <ContainerCenas>
+                                <MiniCardTitulo>
+                                    <BolinhaCenas></BolinhaCenas>
+
+                                    <TituloCenas>oi</TituloCenas>
+                                </MiniCardTitulo>
+                            </ContainerCenas>
+
+                            <ContainerCenas>
+                                <MiniCardTitulo>
+                                    <BolinhaCenas></BolinhaCenas>
+
+                                    <TituloCenas>oi</TituloCenas>
+                                </MiniCardTitulo>
+                            </ContainerCenas>
+
+                            <ContainerCenas>
+                                <MiniCardTitulo>
+                                    <BolinhaCenas></BolinhaCenas>
+
+                                    <TituloCenas>oi</TituloCenas>
+                                </MiniCardTitulo>
+                            </ContainerCenas>
                         </CardCenas>
+
+
+
+                        {/* card informações */}
 
                         <CardInformacoes>
                                <TituloInfo>Ficha Técnica</TituloInfo>

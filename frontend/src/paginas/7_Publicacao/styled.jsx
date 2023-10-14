@@ -77,6 +77,6 @@ export const INputImagem = styled.input`
   margin-bottom: 10px;
 `
 
-export const ImagemInput = styled.img`
+// export const ImagemInput = styled.img`
   
-`
+// `
