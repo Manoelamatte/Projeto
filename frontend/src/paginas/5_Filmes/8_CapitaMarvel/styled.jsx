@@ -110,7 +110,7 @@ export const BolinhaCenas = styled.div`
   background-color: white;
 `
 
-export const TituloCenas = styled.h2`
+export const TituloCenas = styled.h3`
   color: white;
-   
+  font-family: Arial, Helvetica, sans-serif;
 `

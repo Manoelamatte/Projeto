@@ -28,7 +28,7 @@ function MulherGato(){
                             
                         </BolinhaCenas>
 
-                        <TituloCenas>Sally</TituloCenas>
+                        <TituloCenas>Uniforme Mulher gato</TituloCenas>
                     </MiniCardTitulo>
                 </ContainerCenas>
 

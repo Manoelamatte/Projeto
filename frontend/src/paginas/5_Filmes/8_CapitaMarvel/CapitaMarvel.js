@@ -1,8 +1,8 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "./styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "./styled"
 import capitaMarvel from "../../../assets/capitaMarvel.jpg"
-import WallQuartF from "../../../assets/WallQuartF.png"
+import wallCapitaM from "../../../assets/wallCapitaM.png"
 
 function CapitaMarvel(){
     return(
@@ -10,10 +10,10 @@ function CapitaMarvel(){
         <ContainerGeral2>
             <Header2/>
            <FilmeCard1>
-                 {/* <ImgFilmes src={capitaMarvelFundo}/> */}
-             
-                
+                 <ImgFilmes src={wallCapitaM}/>
            </FilmeCard1>
+
+            <BotaoStreaming>DISNEY +</BotaoStreaming>
 
            <FilmeCard2>
 

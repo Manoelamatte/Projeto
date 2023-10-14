@@ -104,33 +104,33 @@ function MulherMaravilha(){
                      Roteiro: Allan Heinberg 
                     </Textinhos>
 
-                <Textinhos>
-                Edição: Martin Walsh 
-                </Textinhos>
+                    <Textinhos>
+                     Edição: Martin Walsh 
+                    </Textinhos>
 
-                <Textinhos>
-                Fotografia: Matthew Jensen 
-                </Textinhos>
+                    <Textinhos>
+                     Fotografia: Matthew Jensen 
+                    </Textinhos>
 
-                <Textinhos>
-                Música: Rupert Gregson Williams 
-                </Textinhos>
+                    <Textinhos>
+                     Música: Rupert Gregson Williams 
+                    </Textinhos>
 
-                <Textinhos>
-                Produção: Charles Roven, Deborah Snyder, Zack Snyder e Richard Suckle
-                </Textinhos>
+                    <Textinhos>
+                     Produção: Charles Roven, Deborah Snyder, Zack Snyder e Richard Suckle
+                    </Textinhos>
 
-                <Textinhos>
-                Atores principais: Gal Gadot (Mulher-Maravilha), Chris Pine (Steve Trevor), Robin Wright (Antíope), Danny Huston (Erich Ludendorff), David Thewlis (Sir Patrick), Connie Nielsen (Hipólita) e Elena Anaya (Dr. Maru)
-                </Textinhos>
+                    <Textinhos>
+                     Atores principais: Gal Gadot (Mulher-Maravilha), Chris Pine (Steve Trevor), Robin Wright (Antíope), Danny Huston (Erich Ludendorff), David Thewlis (Sir Patrick), Connie Nielsen (Hipólita) e Elena Anaya (Dr. Maru)
+                    </Textinhos>
 
-                <Textinhos>
-                Gênero: Ação, aventura, fantasia e guerra 
-                </Textinhos>
+                    <Textinhos>
+                     Gênero: Ação, aventura, fantasia e guerra 
+                    </Textinhos>
 
-                <Textinhos>
-                Duração: 2h 21m 
-                </Textinhos>
+                    <Textinhos>
+                     Duração: 2h 21m 
+                    </Textinhos>
                 </CardInformacoes>
             </FilmeCard2>
         </ContainerGeral2>
