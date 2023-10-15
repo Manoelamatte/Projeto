@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloDisponivel, TituloInfo } from "../8_CapitaMarvel/styled"
 import mulherGato from "../../../assets/mulherGato.jpg"
 import WallMulherG from "../../../assets/WallMulherG.png"
 

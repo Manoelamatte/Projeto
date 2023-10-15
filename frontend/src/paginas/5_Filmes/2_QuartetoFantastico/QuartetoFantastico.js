@@ -59,7 +59,7 @@ function Quartetofantatisco(){
                                 <MiniCardTitulo>
                                     <BolinhaCenas></BolinhaCenas>
 
-                                    <TituloCenas>oi</TituloCenas>
+                                    <TituloCenas>Tocha Humana</TituloCenas>
                                 </MiniCardTitulo>
                             </ContainerCenas>
                         </CardCenas>

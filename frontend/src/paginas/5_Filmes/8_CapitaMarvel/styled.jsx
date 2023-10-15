@@ -38,7 +38,7 @@ export const CardInformacoes = styled.div`
     border-radius: 20px;
     flex-direction: column;
     box-shadow:  05px 5px 5px black;
-    margin-top: 70px;
+    margin-top: 90px;
 `
 
 export const TituloInfo = styled.h2`
@@ -73,6 +73,13 @@ export const BotaoStreaming= styled.button`
     color: white;
     margin-left: 20%;
     font-size: 12pt;
+`
+
+export const TituloDisponivel = styled.h3`
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: relative;
 `
 
 export const TituloFilmes = styled.h1`
