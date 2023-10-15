@@ -91,7 +91,7 @@ export const TituloFilmes = styled.h1`
 export const ContainerCenas = styled.div`
     width: 60vw;
     display: flex;
-    background: white;
+    background: pink;
     height: 40vw;
     border-radius: 30px;
     margin-top: 20px;

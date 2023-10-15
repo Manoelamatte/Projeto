@@ -1,15 +1,13 @@
 import Header from "../../components/Header/Header"
-import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
-import { ContainerMiniDivis, ContainerSobre, Divisinhas, ImagemHome, ImgH, ImgHomeSobre, InputHome, MiniDivis, SobreOq, TextoSobre, TitulosHome } from "./styled"
+import {ContainerGeral2 } from "../../styledGlobal"
+import { CardSobre, ContainerSobre, InputHome, CardTituloHome, TituloHome } from "./styled"
 import style from "./style.css"
 import { Content, Slides } from "../../components/Carrossel/styled"
-import Carrossel from "../../components/Carrossel/Carrossel"
-import imagemAutora from "../../assets/imagemAutora.png"
 import Marvel from "../../assets/Marvel.jpg"
 import MarvelH from "../../assets/MarvelH.png"
 import dcW from "../../assets/dcW.jpg"
 import DcH from "../../assets/DcH.png"
-import heroinasMavelHQ from "../../assets/heroinasMavelHQ.jpg"
+import Footer from "../../components/Footer/Footer"
 
 
 function Home(){
@@ -50,42 +48,24 @@ function Home(){
             </div>
             </Content>
 
-                {/* <Carrossel/> */}
+           {/* fim carrossel */}
 
-                <ContainerSobre>
-                    <SobreOq>
-                        <h1>Sobre o projeto:</h1>
-                        <TextoSobre>
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                        </TextoSobre>
-                    </SobreOq>
+                
+            <ContainerSobre>
+                <CardSobre>
+                    <CardTituloHome>
+                        {/* <TituloHome>Sobre:</TituloHome> */}
+                    </CardTituloHome>
+                </CardSobre>
 
-                    <ImagemHome>
-                        <ImgHomeSobre src={heroinasMavelHQ}/>
-                    </ImagemHome>
-                       
-                </ContainerSobre>
+                <CardSobre>
+                      <CardTituloHome>
+                        {/* <TituloHome>Sobre:</TituloHome> */}
+                      </CardTituloHome>
+                </CardSobre>
+            </ContainerSobre>
 
-
-                 <ContainerMiniDivis>
-                    <MiniDivis>
-                        <ImgH src={imagemAutora}/>
-
-                        <TitulosHome>
-                            Sobre a autora
-                        </TitulosHome>  
-                    </MiniDivis>
-        
-                    <MiniDivis>
-                    
-                    </MiniDivis>
-
-                    <MiniDivis>
-                    
-                    </MiniDivis>
-                </ContainerMiniDivis> 
-
-   
+            {/* <Footer/> */}
         </ContainerGeral2>
         </>
     )

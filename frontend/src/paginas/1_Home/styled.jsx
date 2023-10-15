@@ -1,75 +1,42 @@
 import styled from "styled-components"
 
-export const ContainerMiniDivis = styled.div`
-    width: 80vw;
-    height: 140vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: tranaparent;
-    margin-left: 155px;
-`
-
-export const MiniDivis = styled.div`
-    background-color: rgba(212, 0, 0, 1);
-    width: 30vw;
-    height: 80vh;
-    border-radius: 20px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-`
-
 export const InputHome = styled.input`
     display: none;
 `
 
 export const ContainerSobre = styled.div`
-    height: 50vh;
     display: flex;
+    background: tranparent;
+    height: 100%;
+    margin: 10px;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
-    background-color: tranaparent;
-    margin-top: 10%;
+    column-gap: 25px;
 `
 
-export const SobreOq = styled.div`
+export const CardSobre = styled.div`
     width: 40vw;
     display: flex;
+    background: pink;
+    height: 40vw;
+    border-radius: 30px;
+    margin-top: 20px;
     justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    flex-direction: column;
-    border-radius: 10px;
-    `
-
-export const ImagemHome = styled.div`
-    width: 55vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #691255;
+    box-shadow:  05px 5px 5px black;
 `
 
-export const ImgHomeSobre = styled.img`
-    height: 30vw;
-    width: 90vw;
+export const CardTituloHome = styled.div`
+  width: 30vw;
+  height: 07vh;
+  background-color: darkred;
+  margin-top: 20px;
+  border-radius: 30px;
+  justify-content: start;
+  display: flex;
 `
 
-export const TextoSobre = styled.p`
-    font-family:arial, sans-serif; 
-    text-align: justify;
-    font-size: 12pt;
-`
-
-export const TitulosHome = styled.h2`
-    color: white;
-`
-
-export const ImgH = styled.img`
-    width: 15vw;
-    height: 40vh;
-    border-radius: 100%;
+export const TituloHome = styled.h3`
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 `
