@@ -1,8 +1,9 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import porterMulherMaravilha from "../../../assets/posterMulherMaravilha.jpg"
 import WallMulherM from "../../../assets/WallMulherM.png"
+import espada from "../../../assets/espada.png"
 
 function MulherMaravilha(){
 
@@ -28,7 +29,9 @@ function MulherMaravilha(){
                 <CardCenas>
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={espada}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -36,7 +39,9 @@ function MulherMaravilha(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={espada}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -44,7 +49,9 @@ function MulherMaravilha(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={espada}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -52,7 +59,9 @@ function MulherMaravilha(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={espada}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -60,7 +69,9 @@ function MulherMaravilha(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={espada}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>

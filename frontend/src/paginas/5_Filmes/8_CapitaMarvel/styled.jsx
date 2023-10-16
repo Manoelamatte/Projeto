@@ -95,8 +95,10 @@ export const ContainerCenas = styled.div`
     height: 40vw;
     border-radius: 30px;
     margin-top: 20px;
-    justify-content: center;
+    align-items: center;
     box-shadow:  05px 5px 5px black;
+    flex-direction: column;
+    row-gap: 20px;
 `
 
 export const MiniCardTitulo = styled.div`
@@ -115,9 +117,28 @@ export const BolinhaCenas = styled.div`
   border-radius: 100%;
   margin: 05px;
   background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 `
 
 export const TituloCenas = styled.h3`
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+`
+
+export const IMGCenas = styled.img`
+    width: 45%;
+`
+export const ContainerInformacoesCenas = styled.div`
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+`
+
+export const SimboloFilmes = styled.img`
+    width: 03vw;
+    height: 06vh
 `

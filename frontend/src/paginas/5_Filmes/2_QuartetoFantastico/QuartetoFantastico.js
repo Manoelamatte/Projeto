@@ -1,8 +1,9 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import WallQuartF from "../../../assets/WallQuartF.png"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import quartetofantatisco from "../../../assets/quartetofantastico.jpg"
+import fogoMascara from "../../../assets/fogoMascara.png"
 
 function Quartetofantatisco(){
     return(
@@ -24,7 +25,9 @@ function Quartetofantatisco(){
                         <CardCenas>
                             <ContainerCenas>
                                 <MiniCardTitulo>
-                                    <BolinhaCenas></BolinhaCenas>
+                                    <BolinhaCenas>
+                                          <SimboloFilmes src={fogoMascara}/>
+                                    </BolinhaCenas>
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
@@ -33,7 +36,9 @@ function Quartetofantatisco(){
 
                             <ContainerCenas>
                                 <MiniCardTitulo>
-                                    <BolinhaCenas></BolinhaCenas>
+                                    <BolinhaCenas>
+                                        <SimboloFilmes src={fogoMascara}/>
+                                    </BolinhaCenas>
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
@@ -41,7 +46,9 @@ function Quartetofantatisco(){
 
                             <ContainerCenas>
                                 <MiniCardTitulo>
-                                    <BolinhaCenas></BolinhaCenas>
+                                    <BolinhaCenas>
+                                          <SimboloFilmes src={fogoMascara}/>
+                                    </BolinhaCenas>
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
@@ -49,7 +56,9 @@ function Quartetofantatisco(){
 
                             <ContainerCenas>
                                 <MiniCardTitulo>
-                                    <BolinhaCenas></BolinhaCenas>
+                                    <BolinhaCenas>
+                                          <SimboloFilmes src={fogoMascara}/>
+                                    </BolinhaCenas>
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
@@ -57,7 +66,9 @@ function Quartetofantatisco(){
 
                             <ContainerCenas>
                                 <MiniCardTitulo>
-                                    <BolinhaCenas></BolinhaCenas>
+                                    <BolinhaCenas>
+                                          <SimboloFilmes src={fogoMascara}/>
+                                    </BolinhaCenas>
 
                                     <TituloCenas>Tocha Humana</TituloCenas>
                                 </MiniCardTitulo>

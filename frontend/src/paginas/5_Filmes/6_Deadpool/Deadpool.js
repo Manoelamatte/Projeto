@@ -1,8 +1,9 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import deadpoolPoster from "../../../assets/deadpoolPoster.jpg"
 import wallDeadpool from "../../../assets/wallDeadpool.png"
+import MascaraDead from "../../../assets/MascaraDead.png"
 
 function Deadpool(){
     return(
@@ -19,7 +20,9 @@ function Deadpool(){
                     <CardCenas>
                         <ContainerCenas>
                             <MiniCardTitulo>
-                                <BolinhaCenas></BolinhaCenas>
+                                <BolinhaCenas>
+                                    <SimboloFilmes src={MascaraDead}/>
+                                </BolinhaCenas>
 
                                 <TituloCenas></TituloCenas>
                             </MiniCardTitulo>

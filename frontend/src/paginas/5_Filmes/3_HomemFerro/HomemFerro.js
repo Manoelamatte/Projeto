@@ -1,8 +1,9 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import WallFerro from "../../../assets/WallFerro.png"
 import homemFerro1 from "../../../assets/homemFerro1.jpg"
+import mascaraHF from "../../../assets/mascaraHF.png"
 
 function HomemFerro(){
     return(
@@ -23,7 +24,9 @@ function HomemFerro(){
                 <CardCenas>
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={mascaraHF}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -31,7 +34,9 @@ function HomemFerro(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={mascaraHF}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -39,7 +44,9 @@ function HomemFerro(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={mascaraHF}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -47,7 +54,9 @@ function HomemFerro(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={mascaraHF}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>

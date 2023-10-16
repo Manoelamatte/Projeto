@@ -1,8 +1,13 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloDisponivel, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, IMGCenas, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo } from "../8_CapitaMarvel/styled"
 import mulherGato from "../../../assets/mulherGato.jpg"
 import WallMulherG from "../../../assets/WallMulherG.png"
+import uniformeMG from "../../../assets/uniformeMG.jpg"
+import Cena2Uniforme from "../../../assets/Cena2Uniforme.webp"
+import Gatomascara from "../../../assets/Gatomascara.png"
+import mascaraHF from "../../../assets/mascaraHF.png"
+
 
 function MulherGato(){
     return(
@@ -25,17 +30,35 @@ function MulherGato(){
                 <ContainerCenas>
                     <MiniCardTitulo>
                         <BolinhaCenas>
-                            
+                            <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
 
                         <TituloCenas>Uniforme Mulher gato</TituloCenas>
                     </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <IMGCenas src={uniformeMG}/> 
+                            <IMGCenas src={Cena2Uniforme}/> 
+                        </ContainerInformacoesCenas>
                 </ContainerCenas>
 
                 <ContainerCenas>
                     <MiniCardTitulo>
                         <BolinhaCenas>
+                             <SimboloFilmes src={Gatomascara}/>
+                        </BolinhaCenas>
 
+                    </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                        
+                        </ContainerInformacoesCenas>
+                </ContainerCenas>
+
+                <ContainerCenas>
+                    <MiniCardTitulo>
+                        <BolinhaCenas>
+                            <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
                     </MiniCardTitulo>
                 </ContainerCenas>
@@ -43,7 +66,7 @@ function MulherGato(){
                 <ContainerCenas>
                     <MiniCardTitulo>
                         <BolinhaCenas>
-                            
+                            <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
                     </MiniCardTitulo>
                 </ContainerCenas>
@@ -51,15 +74,7 @@ function MulherGato(){
                 <ContainerCenas>
                     <MiniCardTitulo>
                         <BolinhaCenas>
-                            
-                        </BolinhaCenas>
-                    </MiniCardTitulo>
-                </ContainerCenas>
-
-                <ContainerCenas>
-                    <MiniCardTitulo>
-                        <BolinhaCenas>
-                            
+                            <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
                     </MiniCardTitulo>
                 </ContainerCenas>
