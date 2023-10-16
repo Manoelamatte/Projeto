@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header"
 import {ContainerGeral2 } from "../../styledGlobal"
-import { CardSobre, ContainerSobre, InputHome, CardTituloHome, TituloHome } from "./styled"
+import { CardSobre, ContainerSobre, InputHome, CardTituloHome } from "./styled"
 import style from "./style.css"
 import { Content, Slides } from "../../components/Carrossel/styled"
 import Marvel from "../../assets/Marvel.jpg"

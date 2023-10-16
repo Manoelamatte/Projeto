@@ -18,7 +18,7 @@ export const ContainerSobre = styled.div`
 export const CardSobre = styled.div`
     width: 40vw;
     display: flex;
-    background: pink;
+    background: white;
     height: 40vw;
     border-radius: 30px;
     margin-top: 20px;
