@@ -93,7 +93,7 @@ async function updatePost(request, response) {
       if (results) {
         response.status(200).json({
           success: true,
-          message: `Sucesso! Usuário atualizado.`,
+          message: `Sucesso! Post atualizado.`,
           data: results,
         });
       } else {
