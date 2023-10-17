@@ -1,8 +1,9 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloCenas, TituloInfo } from "./styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "./styled"
 import capitaMarvel from "../../../assets/capitaMarvel.jpg"
 import wallCapitaM from "../../../assets/wallCapitaM.png"
+import capitaMascara from "../../../assets/capitaMascara.png"
 
 function CapitaMarvel(){
     return(
@@ -20,7 +21,9 @@ function CapitaMarvel(){
                 <CardCenas>
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                <SimboloFilmes src={capitaMascara}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -28,7 +31,9 @@ function CapitaMarvel(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                 <SimboloFilmes src={capitaMascara}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -36,7 +41,9 @@ function CapitaMarvel(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                 <SimboloFilmes src={capitaMascara}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -44,7 +51,9 @@ function CapitaMarvel(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                  <SimboloFilmes src={capitaMascara}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -52,7 +61,9 @@ function CapitaMarvel(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                  <SimboloFilmes src={capitaMascara}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
@@ -60,7 +71,9 @@ function CapitaMarvel(){
 
                     <ContainerCenas>
                         <MiniCardTitulo>
-                            <BolinhaCenas></BolinhaCenas>
+                            <BolinhaCenas>
+                                  <SimboloFilmes src={capitaMascara}/>
+                            </BolinhaCenas>
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
