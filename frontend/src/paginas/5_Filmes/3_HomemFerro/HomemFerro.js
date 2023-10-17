@@ -1,9 +1,10 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import WallFerro from "../../../assets/WallFerro.png"
 import homemFerro1 from "../../../assets/homemFerro1.jpg"
 import mascaraHF from "../../../assets/mascaraHF.png"
+import CenaJornalista from "../../../cenas/3_HomemFerro/CenaJornalista.png"
 
 function HomemFerro(){
     return(
@@ -30,6 +31,10 @@ function HomemFerro(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={CenaJornalista}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>

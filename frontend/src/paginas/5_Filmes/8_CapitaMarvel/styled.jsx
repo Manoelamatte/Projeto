@@ -130,6 +130,11 @@ export const TituloCenas = styled.h3`
 export const IMGCenas = styled.img`
     width: 45%;
 `
+
+export const ImagCenas2 = styled.img`
+    width: 65%;
+`
+
 export const ContainerInformacoesCenas = styled.div`
     background-color: pink;
     justify-content: center;
