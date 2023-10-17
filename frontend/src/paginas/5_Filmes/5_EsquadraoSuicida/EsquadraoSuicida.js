@@ -1,8 +1,13 @@
 import Header2 from "../../../components/Header/Header2";
 import { ContainerGeral2 } from "../../../styledGlobal";
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled";
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, Textinhos, TituloInfo } from "../8_CapitaMarvel/styled";
 import wallEsquadrao from "../../../assets/wallEsquadrao.png"
 import esquadraoSuicida from "../../../assets/esquadraoSuicida.jpg"
+import cenaMagia from "../../../cenas/5_EsquadraoSuicida/cenaMagia.jpeg"
+import SonhoArlequina from "../../../cenas/5_EsquadraoSuicida/SonhoArlequina.jpeg"
+import ArlequinaLambida from "../../../cenas/5_EsquadraoSuicida/ArlequinaLambida.jpeg"
+import uniformeAlerquina from "../../../cenas/5_EsquadraoSuicida/uniformeAlerquina.jpeg"
+
 
 function EsquadraoSuicida(){
     return(
@@ -24,6 +29,47 @@ function EsquadraoSuicida(){
 
                             </BolinhaCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={ArlequinaLambida}/>
+                        </ContainerInformacoesCenas>
+                    </ContainerCenas>
+
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas>
+
+                            </BolinhaCenas>
+                        </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={uniformeAlerquina}/>
+                        </ContainerInformacoesCenas>
+                  
+                    </ContainerCenas>
+
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas>
+
+                            </BolinhaCenas>
+                        </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                              <ImagCenas2 src={cenaMagia}/>
+                        </ContainerInformacoesCenas>
+                    </ContainerCenas>
+
+                    <ContainerCenas>
+                        <MiniCardTitulo>
+                            <BolinhaCenas>
+
+                            </BolinhaCenas>
+                        </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                             <ImagCenas2 src={SonhoArlequina}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
                 </CardCenas>
 

@@ -1,10 +1,11 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, IMGCenas, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "./styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "./styled"
 import capitaMarvel from "../../../assets/capitaMarvel.jpg"
 import wallCapitaM from "../../../assets/wallCapitaM.png"
 import capitaMascara from "../../../assets/capitaMascara.png"
 import cenaMotoqueiro from "../../../cenas/8_CapitaMarvel/cenaMotoqueiro.jpeg"
+import uniformeCapita from "../../../cenas/8_CapitaMarvel/uniformeCapita.jpeg"
 
 function CapitaMarvel(){
     return(
@@ -30,7 +31,7 @@ function CapitaMarvel(){
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
-                            <IMGCenas src={cenaMotoqueiro}/>
+                            <ImagCenas2 src={uniformeCapita}/>
                         </ContainerInformacoesCenas>
                     </ContainerCenas>
 
@@ -42,6 +43,10 @@ function CapitaMarvel(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                          
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -52,6 +57,10 @@ function CapitaMarvel(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                         <ContainerInformacoesCenas>
+                               
+                         </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -62,6 +71,10 @@ function CapitaMarvel(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                             
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -72,6 +85,10 @@ function CapitaMarvel(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -82,6 +99,10 @@ function CapitaMarvel(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={cenaMotoqueiro}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
                 </CardCenas>
 

@@ -1,9 +1,13 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, TituloInfo, Textinhos, BotaoStreaming, ContainerCenas, MiniCardTitulo, BolinhaCenas, TituloCenas, SimboloFilmes } from "../8_CapitaMarvel/styled"
+import { CardCenas, CardInformacoes, FilmeCard1, FilmeCard2, ImgFilmes, Poster, TituloInfo, Textinhos, BotaoStreaming, ContainerCenas, MiniCardTitulo, BolinhaCenas, TituloCenas, SimboloFilmes, ContainerInformacoesCenas, ImagCenas2, IMGCenas } from "../8_CapitaMarvel/styled"
 import WallHomemF from "../../../assets/WallHomemF.png"
 import homemFerro2 from "../../../assets/homemFerro2.jpg"
 import mascaraHF from "../../../assets/mascaraHF.png"
+import viuvaNegra from "../../../cenas/4_HomemFerro2/viuvaNegra.jpeg"
+import dancarinas from "../../../cenas/4_HomemFerro2/dancarinas.jpeg"
+import posterCapitao_ from "../../../cenas/4_HomemFerro2/posterCapitao_.jpg"
+import posterViuva from "../../../cenas/4_HomemFerro2/posterViuva.jpg"
 
 function HomemFerro2(){
     return(
@@ -28,6 +32,10 @@ function HomemFerro2(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={dancarinas}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -38,6 +46,11 @@ function HomemFerro2(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={viuvaNegra}/>
+                        </ContainerInformacoesCenas>
+
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -48,6 +61,11 @@ function HomemFerro2(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                           <ContainerInformacoesCenas>
+                                <IMGCenas src={posterCapitao_}/>
+                                <IMGCenas src={posterViuva}/>
+                            </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>

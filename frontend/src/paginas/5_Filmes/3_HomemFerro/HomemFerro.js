@@ -5,6 +5,9 @@ import WallFerro from "../../../assets/WallFerro.png"
 import homemFerro1 from "../../../assets/homemFerro1.jpg"
 import mascaraHF from "../../../assets/mascaraHF.png"
 import CenaJornalista from "../../../cenas/3_HomemFerro/CenaJornalista.png"
+import DancaAviao from "../../../cenas/3_HomemFerro/DancaAviao.jpeg"
+import Pepper from "../../../cenas/3_HomemFerro/Pepper.jpg"
+import cenaLixo from "../../../cenas/3_HomemFerro/cenaLixo.jpeg"
 
 function HomemFerro(){
     return(
@@ -45,6 +48,10 @@ function HomemFerro(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={cenaLixo}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -55,6 +62,10 @@ function HomemFerro(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={DancaAviao}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -65,6 +76,10 @@ function HomemFerro(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={Pepper}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
                 </CardCenas>
 
