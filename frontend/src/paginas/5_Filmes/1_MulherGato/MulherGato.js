@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, Gifs, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo } from "../8_CapitaMarvel/styled"
 import mulherGato from "../../../assets/mulherGato.jpg"
 import WallMulherG from "../../../assets/WallMulherG.png"
 import uniformeMG from "../../../assets/uniformeMG.jpg"
@@ -9,6 +9,7 @@ import Gatomascara from "../../../assets/Gatomascara.png"
 import lambidaCena from "../../../cenas/1_MulherGato/lambidaCena.jpeg"
 import sally from "../../../cenas/1_MulherGato/sally.jpg"
 import Tom from "../../../cenas/1_MulherGato/Tom.jpeg"
+// import bundaMG from "../../../cenas/1_MulherGato/bundaMG.gif"
 
 function MulherGato(){
     return(
@@ -64,7 +65,7 @@ function MulherGato(){
                     </MiniCardTitulo>
 
                     <ContainerInformacoesCenas>
-                        
+                        {/* <Gifs src={bundaMG}/> */}
                     </ContainerInformacoesCenas>
                 </ContainerCenas>
 

@@ -147,3 +147,7 @@ export const SimboloFilmes = styled.img`
     width: 03vw;
     height: 06vh
 `
+
+export const Gifs = styled.img`
+    width: 50%;
+`
