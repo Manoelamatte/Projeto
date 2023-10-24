@@ -42,6 +42,8 @@ function MulherGato(){
                             <IMGCenas src={uniformeMG}/> 
                             <IMGCenas src={Cena2Uniforme}/> 
                         </ContainerInformacoesCenas>
+
+                        oi
                 </ContainerCenas>
 
                 <ContainerCenas>

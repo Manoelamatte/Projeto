@@ -14,6 +14,7 @@ import HomemFerro from "../paginas/5_Filmes/3_HomemFerro/HomemFerro"
 import HomemFerro2 from "../paginas/5_Filmes/4_HomemFerro2/HomemFerro2"
 import EsquadraoSuicida from "../paginas/5_Filmes/5_EsquadraoSuicida/EsquadraoSuicida"
 import Deadpool from "../paginas/5_Filmes/6_Deadpool/Deadpool"
+import Comentarios from "../paginas/8_Comentarios/Comentarios"
 
 function Rotas(){
     return(
@@ -26,6 +27,7 @@ function Rotas(){
                 <Route path="principal" element={<Principal/>}/>
                 <Route path="publicacao" element={<Publicacao/>}/>
                 <Route path="filmes" element={<Filmes/>}/>
+                <Route path="comentarios" element={<Comentarios/>}/>
                 <Route path="mulhergato" element={<MulherGato/>}/>
                 <Route path="quartetofantastico" element={<Quartetofantatisco/>}/>
                 <Route path="homemferro" element={<HomemFerro/>}/>

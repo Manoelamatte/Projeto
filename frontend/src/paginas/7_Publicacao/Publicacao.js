@@ -31,10 +31,8 @@ function Publicacao(){
 
                     <InputPublic type="text" name="comentario" placeholder="Digite Aqui..."/>
                     
-                    <INputImagem type="file">
-                        
-                    </INputImagem>
-                 
+                    {/* <INputImagem type="file"/> */}
+                                     
 
                     <BotaoPublicar onClick={goToPrincipal}>
                         Publicar

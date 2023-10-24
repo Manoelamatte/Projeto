@@ -75,6 +75,7 @@ export const ImagemMascara = styled.img`
 export const INputImagem = styled.input`
   margin-right: 60%;
   margin-bottom: 10px;
+  
 `
 
 // export const ImagemInput = styled.img`

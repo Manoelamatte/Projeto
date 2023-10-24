@@ -1,8 +1,17 @@
 import { ContainerGeral } from "../../styledGlobal"
-import { Bolinha, CardDireita, CardEsquerda, CardPost, ImagemMascara, MiniCardizinho, Textinho } from "./styled"
+import { Bolinha, BotaoIcones, CardDireita, CardEsquerda, CardPost, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "./styled"
 import MascaraLogo from "../../assets/MascaraLogo.png"
+import comentario from "../../assets/comentario.png"
+import gostar from "../../assets/gostar.png"
+import { useNavigate } from "react-router-dom"
 
 function Post(){
+
+    const navigate = useNavigate()
+    const goToComentario = ()=>{
+        navigate('/comentarios')
+    }
+
     return(
         <>
         
@@ -22,6 +31,14 @@ function Post(){
 
                     </MiniCardizinho>
                 </CardDireita>
+
+                <BotaoIcones>
+                     <IconesPost src={gostar}/>
+                </BotaoIcones>
+
+                <BotaoIcones onClick={goToComentario}>
+                     <IconesPost src={comentario}/>
+                </BotaoIcones>
             </CardPost>
       
         </>

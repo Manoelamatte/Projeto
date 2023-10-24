@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const CardPost = styled.div`
   width: 63vw;
-  height: 38vh;
-  background-color: rgba(247, 245, 245, 1);
+  height: 40vh;
+  background-color: rgba(237, 227, 227, 1);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -53,8 +53,13 @@ export const Textinho = styled.p`
 `
 
 export const IconesPost = styled.img`
-    margin: 20px;
     width: 30px;
     height: 30px;
+    margin-left: -210%;
 `
-
+export const BotaoIcones = styled.button`
+    background-color: transparent;
+    border: none;
+    margin-top: 23%;
+    cursor: pointer;
+`
