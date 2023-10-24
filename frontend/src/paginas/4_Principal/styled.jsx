@@ -7,7 +7,6 @@ export const BotaoPrincipal = styled.button`
     margin-left: 85vw;
     background: transparent;
    position: fixed;
-   margin-top: 80px;
 `
 export const ImagemPrincipal = styled.img`
   height: 50px;

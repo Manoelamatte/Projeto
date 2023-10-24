@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const CardPost = styled.div`
   width: 63vw;
-  height: 40vh;
+  height: 45vh;
   background-color: rgba(237, 227, 227, 1);
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@ export const CardPost = styled.div`
 
 export const CardEsquerda = styled.div`
     width: 10%;
-    height: 40vh;
+    height: 45vh;
 `
 
 export const Bolinha = styled.div`
@@ -32,12 +32,12 @@ export const ImagemMascara = styled.img`
 
 export const CardDireita = styled.div`
     width: 90%;
-    height: 33vh;
+    height: 35vh;
     justify-content: start;
     align-items: start;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 `
 export const MiniCardizinho = styled.div`
     width: 52vw;
@@ -55,11 +55,11 @@ export const Textinho = styled.p`
 export const IconesPost = styled.img`
     width: 30px;
     height: 30px;
-    margin-left: -210%;
+    margin-left: -500%;
 `
 export const BotaoIcones = styled.button`
     background-color: transparent;
     border: none;
-    margin-top: 23%;
+    margin-top: 28%;
     cursor: pointer;
 `
