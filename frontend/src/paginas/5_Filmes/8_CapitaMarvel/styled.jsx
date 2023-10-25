@@ -136,7 +136,7 @@ export const ImagCenas2 = styled.img`
 `
 
 export const ContainerInformacoesCenas = styled.div`
-    background-color: pink;
+    /* background-color: pink; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -145,9 +145,16 @@ export const ContainerInformacoesCenas = styled.div`
 
 export const SimboloFilmes = styled.img`
     width: 03vw;
-    height: 06vh
+    height: 06vh;
 `
 
 export const Gifs = styled.img`
     width: 50%;
+`
+
+export const Paragrafocenas= styled.p`
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: justify;
+  margin: 30px;
+  font-size: 12pt;
 `

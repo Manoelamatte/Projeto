@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, Gifs, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, Gifs, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo, Paragrafocenas } from "../8_CapitaMarvel/styled"
 import mulherGato from "../../../assets/mulherGato.jpg"
 import WallMulherG from "../../../assets/WallMulherG.png"
 import uniformeMG from "../../../assets/uniformeMG.jpg"
@@ -43,7 +43,7 @@ function MulherGato(){
                             <IMGCenas src={Cena2Uniforme}/> 
                         </ContainerInformacoesCenas>
 
-                        oi
+                <Paragrafocenas>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Paragrafocenas>
                 </ContainerCenas>
 
                 <ContainerCenas>

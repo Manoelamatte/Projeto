@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header"
 import {ContainerGeral2 } from "../../styledGlobal"
-import { CardSobre, ContainerSobre, InputHome, CardTituloHome } from "./styled"
+import { CardSobre, ContainerSobre, InputHome, CardTituloHome, TituloHome, ParagrafoSobre, BotaoIcones, IconesSobre, ContainerIcones, FotoAutora } from "./styled"
 import style from "./style.css"
 import { Content, Slides } from "../../components/Carrossel/styled"
 import Marvel from "../../assets/Marvel.jpg"
@@ -8,6 +8,9 @@ import MarvelH from "../../assets/MarvelH.png"
 import dcW from "../../assets/dcW.jpg"
 import DcH from "../../assets/DcH.png"
 import Footer from "../../components/Footer/Footer"
+import iconeGithub from "../../assets/iconeGithub.png"
+import PDF from "../../assets/PDF.png"
+import fotoPerfil from "../../assets/fotoPerfil.png"
 
 
 function Home(){
@@ -54,14 +57,40 @@ function Home(){
             <ContainerSobre>
                 <CardSobre>
                     <CardTituloHome>
-                        {/* <TituloHome>Sobre:</TituloHome> */}
+                        <TituloHome>Sobre o projeto:</TituloHome>
                     </CardTituloHome>
+
+                    <ParagrafoSobre>
+                      O projeto se concentra na análise das representações das mulheres em 8 filmes que compõem os 
+                      Universos Cinematográficos Marvel e DC, analisando aspectos como figurinos, narrativas, enquadramentos
+                      e os seus papéis nos filmes. Sendo assim, o objetivo geral deste trabalho é desenvolver uma ferramenta 
+                      educativa para fornecer análises críticas e reflexivas sobre as cenas sexualizadas de personagens femininas
+                      em filmes de super-heróis.  Além disso, promover um espaço de discussão construtiva sobre a representação de gênero nas produções da Marvel e DC.
+                      </ParagrafoSobre>
+
+                    <ContainerIcones>
+                      <BotaoIcones>
+                            <IconesSobre src={iconeGithub}/>
+                      </BotaoIcones>
+
+                      <BotaoIcones>
+                            <IconesSobre src={PDF}/>
+                      </BotaoIcones>
+                      </ContainerIcones>
                 </CardSobre>
 
                 <CardSobre>
                       <CardTituloHome>
-                        {/* <TituloHome>Sobre:</TituloHome> */}
+                        <TituloHome>Sobre a autora:</TituloHome>
                       </CardTituloHome>
+
+                      <ParagrafoSobre>
+                        Olá, sou Manoela Soares Matté. Tenho 17 anos e atualmente resido no Rio Grande do Sul. 
+                        Sou estudante da escola de Ensino Médio Senac São Leopoldo com foco em Tecnologia e faço parte do último ano do Ensino Médio.
+                        Espero que aproveite o site! Obrigada
+                      </ParagrafoSobre>
+
+                      <FotoAutora src={fotoPerfil}/>
                 </CardSobre>
             </ContainerSobre>
 
