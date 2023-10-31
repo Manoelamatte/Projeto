@@ -43,7 +43,7 @@ async function storePost(request, response) {
   const params = Array(
     request.body.descricao,
     request.body.imagem,
-    request.body.id_usuario
+    request.body.idUsuario
   );
 
   // Executa a ação no banco e valida os retornos para o client que realizou a solicitação
