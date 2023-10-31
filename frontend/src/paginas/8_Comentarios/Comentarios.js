@@ -1,7 +1,8 @@
 import Header2 from "../../components/Header/Header2"
 import { ContainerCenter, ContainerGeral4 } from "../../styledGlobal"
-import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, InputPublic, MiniContainer, TextoMiniContainer } from "../7_Publicacao/styled"
 import MascaraLogo from "../../assets/MascaraLogo.png"
+import { CardBolinhaComen, ContainerComentarios, ImagemMascaraComent, InputComentario, MiniContainerComen, TextoMiniContainerComent } from "./styled"
+import { BotaoPublicar } from "../7_Publicacao/styled"
 
 function Comentarios(){
     return(
@@ -10,23 +11,25 @@ function Comentarios(){
             <Header2/>
 
             <ContainerCenter>
-                <ComentariosCardPublic>
-                        <MiniContainer>
-                                <CardBolinha>
-                                    <ImagemMascara src={MascaraLogo}/>
-                                </CardBolinha>
+                <ContainerComentarios>
+                    <MiniContainerComen>
+                        <CardBolinhaComen>
+                            <ImagemMascaraComent src={MascaraLogo}/>
+                        </CardBolinhaComen>
 
-                                <TextoMiniContainer>
-                                    Comente aqui sobre o que você está pensando.
-                                </TextoMiniContainer>
-                        </MiniContainer>
+                        <TextoMiniContainerComent>
+                             Comente aqui sobre o que você está pensando.
+                        </TextoMiniContainerComent>
+                    </MiniContainerComen>
+            
+                    <InputComentario
+                        placeholder="Digite aqui..." 
+                    />          
 
-                        <InputPublic type="text" name="comentario" placeholder="Digite Aqui..."/>
-
-                        <BotaoPublicar>
-                            Comentar
-                        </BotaoPublicar>
-                </ComentariosCardPublic>
+                     <BotaoPublicar>
+                        COMENTAR
+                     </BotaoPublicar>
+                </ContainerComentarios>
             </ContainerCenter>
         </ContainerGeral4>
         </>

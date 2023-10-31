@@ -24,7 +24,7 @@ export const TextoMiniContainer = styled.p`
   color: white;
   font-size: 12pt;
   position: relative;
-  margin-top: -35px;
+  margin-top: -40px;
   margin-left: 70px;
 `
 
@@ -32,19 +32,29 @@ export const InputPublic = styled.textarea`
   width: 65vw;
   height: 40vh;
   background-color: rgba(236, 236, 236, 1);
-  /* align-items: end; */
   border: none;
   border-radius: 10px;
-  /* box-shadow: 0 0.4rem #dfd9d9; */
   outline: none;
   box-sizing: border-box;
-  resize: none;
+  resize: none;  
+`
+
+export const TituloPostagem = styled.input`
+    width: 55vw;
+    height: 05vh;
+    // background-color: rgba(236, 236, 236, 1);
+    background-color: transparent;
+    border: none;
+    border-radius: 05px; 
+    outline: none;
+    color: white;
 
   &::placeholder {
-    color:  rgba(212, 0, 0, 1);
-   }
-  
+    // color:  rgba(212, 0, 0, 1);
+    color: white;
+  }
 `
+
 export const CardBolinha = styled.div`
   width: 04vw;
   height: 08vh;
@@ -81,3 +91,15 @@ export const INputImagem = styled.input`
 // export const ImagemInput = styled.img`
   
 // `
+
+export const InputPostagem = styled.input`
+  width: 65vw;
+  height: 35vh;
+  background-color: rgba(236, 236, 236, 1);
+  border: none;
+  border-radius: 10px;
+
+  &::placeholder {
+    color:  rgba(212, 0, 0, 1);
+   }
+`

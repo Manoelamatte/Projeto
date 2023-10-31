@@ -26,10 +26,9 @@ export const Bolinha = styled.div`
     margin-left: 20px;
 `
 export const ImagemMascara = styled.img`
-    width: 55px;
+    width: 50px;
     height: 50px;
 `
-
 export const CardDireita = styled.div`
     width: 90%;
     height: 35vh;
@@ -42,6 +41,7 @@ export const CardDireita = styled.div`
 export const MiniCardizinho = styled.div`
     width: 52vw;
     height: 50vh;
+    padding: 10px;
     background-color: white;
     border-radius: 10px;
     margin-left: 05px;

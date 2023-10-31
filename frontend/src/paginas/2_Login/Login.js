@@ -12,9 +12,10 @@ function Login(){
     const [senha, setSenha] = useState('')
 
 
-    const saveUserinfoLocalStorage = (email, token)=>{
+    const saveUserinfoLocalStorage = (email, token, id)=>{
         localStorage.setItem('token', token)
         localStorage.setItem('email', email)
+        localStorage.setItem('id', id)
     }
 
     const handleSubmit = (e)=>{
@@ -35,9 +36,10 @@ function Login(){
              // recuperando informações depois que usario logou
              const token = response.data.data[0].token;
              const email = response.data.data[0].email;
+             const id = response.data.data[0].id;
              
              //função para salvar informalções depois que o usuario logu
-             saveUserinfoLocalStorage(email, token)
+             saveUserinfoLocalStorage(email, token, id)
             navigate('/principal')
         })
         .catch(error => console.log(error))
