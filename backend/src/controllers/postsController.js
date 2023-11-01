@@ -130,7 +130,7 @@ async function deletePost(request, response) {
       if (results) {
         response.status(200).json({
           success: true,
-          message: `Sucesso! Usuário deletado.`,
+          message: `Sucesso! Postagem deletada.`,
           data: results,
         });
       } else {
