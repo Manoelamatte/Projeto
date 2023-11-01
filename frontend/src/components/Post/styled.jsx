@@ -63,3 +63,10 @@ export const BotaoIcones = styled.button`
     margin-top: 28%;
     cursor: pointer;
 `
+export const BotaoIconesCima = styled.button`
+    background-color: transparent;
+    border: none;
+    margin-top: -40px;
+    margin-left: 105%;
+    cursor: pointer;
+`

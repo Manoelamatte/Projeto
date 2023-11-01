@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerComentarios = styled.div`
   width: 68vw;
   height: 45vh;
-  background-color: rgba(247, 245, 245, 1);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@ export const ContainerComentarios = styled.div`
 `;
 
 export const InputComentario = styled.input`
-  width: 55vw;
+  width: 58vw;
   height: 24vh;
   background-color: rgba(236, 236, 236, 1);
   border: none;
@@ -25,10 +25,10 @@ export const InputComentario = styled.input`
 `
 
 export const MiniContainerComen = styled.div`
-  width: 56vw;
+  width: 59vw;
   height: 07vh;
   background-color: darkred;
-  margin: 10px;
+  margin: 15px;
   border-radius: 20px;
   justify-content: space-between;
 `;
