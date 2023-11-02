@@ -1,9 +1,12 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
 import WallQuartF from "../../../assets/WallQuartF.png"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import quartetofantatisco from "../../../assets/quartetofantastico.jpg"
 import fogoMascara from "../../../assets/fogoMascara.png"
+import QuartetoPoster from "../../../cenas/2_QuartetoFantastico/QuartetoPoster.jpg"
+import CenaUniforme from "../../../cenas/2_QuartetoFantastico/CenaUniforme.webp"
+import CenaChris from "../../../cenas/2_QuartetoFantastico/CenaChris.jpg"
 
 function Quartetofantatisco(){
     return(
@@ -31,6 +34,10 @@ function Quartetofantatisco(){
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
+
+                                <ContainerInformacoesCenas>
+                                    <ImagCenas2 src={QuartetoPoster}/>
+                                </ContainerInformacoesCenas>
                             </ContainerCenas>
 
 
@@ -42,6 +49,10 @@ function Quartetofantatisco(){
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
+
+                                <ContainerInformacoesCenas>
+                                    <ImagCenas2 src={CenaUniforme}/>
+                                </ContainerInformacoesCenas>
                             </ContainerCenas>
 
                             <ContainerCenas>
@@ -52,6 +63,8 @@ function Quartetofantatisco(){
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
+
+                                
                             </ContainerCenas>
 
                             <ContainerCenas>
@@ -72,6 +85,10 @@ function Quartetofantatisco(){
 
                                     <TituloCenas>Tocha Humana</TituloCenas>
                                 </MiniCardTitulo>
+
+                                <ContainerInformacoesCenas>
+                                    <ImagCenas2 src={CenaChris}/>
+                                </ContainerInformacoesCenas>
                             </ContainerCenas>
                         </CardCenas>
 

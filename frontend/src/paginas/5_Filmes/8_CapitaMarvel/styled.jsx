@@ -149,12 +149,12 @@ export const SimboloFilmes = styled.img`
 `
 
 export const Gifs = styled.img`
-    width: 50%;
+    width: 40vw;
 `
 
 export const Paragrafocenas= styled.p`
   font-family: Arial, Helvetica, sans-serif; 
   text-align: justify;
-  margin: 30px;
+  margin: 20px;
   font-size: 12pt;
 `

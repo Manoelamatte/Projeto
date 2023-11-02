@@ -9,7 +9,7 @@ import Gatomascara from "../../../assets/Gatomascara.png"
 import lambidaCena from "../../../cenas/1_MulherGato/lambidaCena.jpeg"
 import sally from "../../../cenas/1_MulherGato/sally.jpg"
 import Tom from "../../../cenas/1_MulherGato/Tom.jpeg"
-// import bundaMG from "../../../cenas/1_MulherGato/bundaMG.gif"
+import mulherBunda from "../../../cenas/1_MulherGato/mulherBunda.gif"
 
 function MulherGato(){
     return(
@@ -43,7 +43,12 @@ function MulherGato(){
                             <IMGCenas src={Cena2Uniforme}/> 
                         </ContainerInformacoesCenas>
 
-                <Paragrafocenas>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Paragrafocenas>
+                <Paragrafocenas>
+                O primeiro uniforme é composto por uma calça colada, e uma blusa aberta pela metade. Sempre andando sensualmente e empinando as nádegas. 
+                Casualmente ela começa a falar com sotaque e com uma voz sensual. Seu segundo uniforme é o mais tenebroso: uma calça ainda mais apertada no corpo, 
+                um sutiã preto que realça bastante os seus seios, uma máscara de gato, luvas com unhas do animal e uma bota preta. Para completar, sua arma é um chicote preto. 
+                Todas as suas cenas combatendo o crime são monstruosas e parecem cenas de vídeo games medonhos.
+                </Paragrafocenas>
                 </ContainerCenas>
 
                 <ContainerCenas>
@@ -67,7 +72,7 @@ function MulherGato(){
                     </MiniCardTitulo>
 
                     <ContainerInformacoesCenas>
-                        {/* <Gifs src={bundaMG}/> */}
+                        <Gifs src={mulherBunda}/>
                     </ContainerInformacoesCenas>
                 </ContainerCenas>
 

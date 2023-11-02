@@ -5,8 +5,9 @@ import { CardBolinhaComen, ContainerComentarios, ImagemMascaraComent, InputComen
 import { BotaoPublicar, ImagemMascara } from "../7_Publicacao/styled"
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { Bolinha, BotaoIcones, CardDireita, CardEsquerda, CardPost, IconesPost, MiniCardizinho, Textinho } from "../../components/Post/styled"
+import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, IconesPost, MiniCardizinho, Textinho } from "../../components/Post/styled"
 import gostar from "../../assets/gostar.png"
+import botaoExcluir from "../../assets/botaoExcluir.png"
 
 function Comentarios(){
 
@@ -83,6 +84,10 @@ function Comentarios(){
                                 <Textinho>
                                     Comentado por @fulanadetal 
                                 </Textinho>
+
+                                <BotaoIconesCima>
+                                    <IconesPost src={botaoExcluir}/>
+                                </BotaoIconesCima>
 
                                 <MiniCardizinho>
                                     {comentarios.descricao}

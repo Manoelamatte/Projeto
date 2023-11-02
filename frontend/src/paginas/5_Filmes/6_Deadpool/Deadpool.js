@@ -1,9 +1,11 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import deadpoolPoster from "../../../assets/deadpoolPoster.jpg"
 import wallDeadpool from "../../../assets/wallDeadpool.png"
 import MascaraDead from "../../../assets/MascaraDead.png"
+import cenaDeadpool from "../../../cenas/6_Deadpool/cenaDeadpool.jpeg"
+import MulherAssed from "../../../cenas/6_Deadpool/MulherAssed.jpeg"
 
 function Deadpool(){
     return(
@@ -26,8 +28,31 @@ function Deadpool(){
 
                                 <TituloCenas></TituloCenas>
                             </MiniCardTitulo>
+
+                            <ContainerInformacoesCenas>
+                                <ImagCenas2 src={cenaDeadpool}/>
+                            </ContainerInformacoesCenas>
                         </ContainerCenas>
+
+
+                        <ContainerCenas>
+                            <MiniCardTitulo>
+                                <BolinhaCenas>
+                                    <SimboloFilmes  src={MascaraDead}/>
+                                </BolinhaCenas>
+
+                                <TituloCenas></TituloCenas>
+                            </MiniCardTitulo>
+
+                            <ContainerInformacoesCenas>
+                                <ImagCenas2 src={MulherAssed}/>
+                            </ContainerInformacoesCenas>
+                        </ContainerCenas>
+
                     </CardCenas>
+
+
+    
 
                     <CardInformacoes>
                         <TituloInfo>
