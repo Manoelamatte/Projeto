@@ -7,6 +7,7 @@ import fogoMascara from "../../../assets/fogoMascara.png"
 import QuartetoPoster from "../../../cenas/2_QuartetoFantastico/QuartetoPoster.jpg"
 import CenaUniforme from "../../../cenas/2_QuartetoFantastico/CenaUniforme.webp"
 import CenaChris from "../../../cenas/2_QuartetoFantastico/CenaChris.jpg"
+import cenaBeijo from "../../../cenas/2_QuartetoFantastico/cenaBeijo.png"
 
 function Quartetofantatisco(){
     return(
@@ -75,6 +76,10 @@ function Quartetofantatisco(){
 
                                     <TituloCenas>oi</TituloCenas>
                                 </MiniCardTitulo>
+
+                                <ContainerInformacoesCenas>
+                                    <ImagCenas2 src={cenaBeijo}/>
+                                </ContainerInformacoesCenas>
                             </ContainerCenas>
 
                             <ContainerCenas>

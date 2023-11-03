@@ -143,6 +143,13 @@ export const ContainerInformacoesCenas = styled.div`
     gap: 10px;
 `
 
+export const CenasHomemFerro = styled.img`
+    width: 26%;
+`
+export const CenasViuva = styled.img`
+    width: 27%;
+`
+
 export const SimboloFilmes = styled.img`
     width: 03vw;
     height: 06vh;

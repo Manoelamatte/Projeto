@@ -49,6 +49,34 @@ function Deadpool(){
                             </ContainerInformacoesCenas>
                         </ContainerCenas>
 
+                        <ContainerCenas>
+                            <MiniCardTitulo>
+                                <BolinhaCenas>
+                                    <SimboloFilmes  src={MascaraDead}/>
+                                </BolinhaCenas>
+
+                                <TituloCenas></TituloCenas>
+                            </MiniCardTitulo>
+
+                            <ContainerInformacoesCenas>
+                                <ImagCenas2 />
+                            </ContainerInformacoesCenas>
+                        </ContainerCenas>
+
+                        <ContainerCenas>
+                            <MiniCardTitulo>
+                                <BolinhaCenas>
+                                    <SimboloFilmes />
+                                </BolinhaCenas>
+
+                                <TituloCenas></TituloCenas>
+                            </MiniCardTitulo>
+
+                            <ContainerInformacoesCenas>
+                                <ImagCenas2 />
+                            </ContainerInformacoesCenas>
+                        </ContainerCenas>
+
                     </CardCenas>
 
 
