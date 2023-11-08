@@ -21,22 +21,23 @@ function Rotas(){
         <>
         <BrowserRouter>
             <Routes>
-                <Route index element ={<Home/>}/>
-                <Route path="login" element={<Login/>}/>
-                <Route path="cadastro" element={<Cadastro/>}/>
-                <Route path="principal" element={<Principal/>}/>
-                <Route path="publicacao" element={<Publicacao/>}/>
-                <Route path="filmes" element={<Filmes/>}/>
-                <Route path="comentarios" element={<Comentarios/>}/>
-                <Route path="mulhergato" element={<MulherGato/>}/>
+                <Route index                    element ={<Home/>}/>
+                <Route path="login"             element={<Login/>}/>
+                <Route path="cadastro"          element={<Cadastro/>}/>
+                <Route path="/principal"        element={<Principal/>}/>
+                <Route path="publicacao"        element={<Publicacao/>}/>
+                <Route path="filmes"            element={<Filmes/>}/>
+                <Route path="/comentarios/:id"  element={<Comentarios/>}/> 
+                {/* :id */}
+                <Route path="mulhergato"        element={<MulherGato/>}/>
                 <Route path="quartetofantastico" element={<Quartetofantatisco/>}/>
-                <Route path="homemferro" element={<HomemFerro/>}/>
-                <Route path="homemferro2" element={<HomemFerro2/>}/>
-                <Route path="esquadraosuicida" element={<EsquadraoSuicida/>}/>
-                <Route path="deadpool" element={<Deadpool/>}/>
-                <Route path="mulhermaravilha" element={<MulherMaravilha/>}/>
-                <Route path="capitamarvel" element={<CapitaMarvel/>}/>
-                <Route path="*" element={<Erro/>}/>
+                <Route path="homemferro"        element={<HomemFerro/>}/>
+                <Route path="homemferro2"       element={<HomemFerro2/>}/>
+                <Route path="esquadraosuicida"  element={<EsquadraoSuicida/>}/>
+                <Route path="deadpool"          element={<Deadpool/>}/>
+                <Route path="mulhermaravilha"   element={<MulherMaravilha/>}/>
+                <Route path="capitamarvel"      element={<CapitaMarvel/>}/>
+                <Route path="*"                 element={<Erro/>}/>
             </Routes>
         </BrowserRouter>
         </>

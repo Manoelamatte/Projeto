@@ -92,7 +92,7 @@ export const ContainerCenas = styled.div`
     width: 60vw;
     display: flex;
     background: white;
-    height: 40vw;
+    height: 42vw;
     border-radius: 30px;
     margin-top: 20px;
     align-items: center;

@@ -10,9 +10,12 @@ import comentario from "../../assets/comentario.png"
 import gostar from "../../assets/gostar.png"
 import axios from "axios"
 import botaoExcluir from "../../assets/botaoExcluir.png"
+import botaoEditar from "../../assets/botaoEditar.png"
 
 function Principal(){
     const [postsList, setPostsList] = useState([]);
+    const [isEnable, setEnable] = useState(false);
+    const idUsuario = localStorage.getItem('id');
 
     const fetchData = async () => {
         const response = await axios.get('http://localhost:3008/api/posts');
@@ -24,12 +27,13 @@ function Principal(){
     }, []);
 
     const navigate = useNavigate()
+
     const goToPublic = ()=>{
         navigate('/publicacao')
     }
 
-    const goToComentarios = ()=>{
-        navigate('/comentarios')
+    const goToComentarios = (id) => {        
+        navigate('/comentarios/' + id)
     }
 
     // função deletar
@@ -79,7 +83,10 @@ function Principal(){
                     <Post/> */}
 
                     {postsList.map((post) => {
+                        
                         return <>
+                        
+
                         <CardPost>
                         <CardEsquerda>
                             <Bolinha>
@@ -92,9 +99,12 @@ function Principal(){
                             Enviado por @fulanadetal 
                             </Textinho>
 
+                            { idUsuario == post.id_usuario ?
                             <BotaoIconesCima onClick={()=> handleExcluir(post.id)}>
                                <IconesPost src={botaoExcluir}/>
+                               {/* <IconesPost src={botaoEditar}/> */}
                             </BotaoIconesCima>
+                            : null }
 
 
                             {/* <BotaoIcones>
@@ -111,7 +121,7 @@ function Principal(){
                              <IconesPost src={gostar}/>
                         </BotaoIcones>
         
-                        <BotaoIcones onClick={goToComentarios}>
+                        <BotaoIcones onClick={() => goToComentarios(post.id)}>
                              <IconesPost src={comentario}/>
                         </BotaoIcones>
                     </CardPost>

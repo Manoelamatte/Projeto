@@ -43,12 +43,12 @@ function MulherGato(){
                             <IMGCenas src={Cena2Uniforme}/> 
                         </ContainerInformacoesCenas>
 
-                <Paragrafocenas>
-                O primeiro uniforme é composto por uma calça colada, e uma blusa aberta pela metade. Sempre andando sensualmente e empinando as nádegas. 
-                Casualmente ela começa a falar com sotaque e com uma voz sensual. Seu segundo uniforme é o mais tenebroso: uma calça ainda mais apertada no corpo, 
-                um sutiã preto que realça bastante os seus seios, uma máscara de gato, luvas com unhas do animal e uma bota preta. Para completar, sua arma é um chicote preto. 
-                Todas as suas cenas combatendo o crime são monstruosas e parecem cenas de vídeo games medonhos.
-                </Paragrafocenas>
+                            <Paragrafocenas>
+                            O primeiro uniforme é composto por uma calça colada, e uma blusa aberta pela metade. Sempre andando sensualmente e empinando as nádegas. 
+                            Casualmente ela começa a falar com sotaque e com uma voz sensual. Seu segundo uniforme é o mais tenebroso: uma calça ainda mais apertada no corpo, 
+                            um sutiã preto que realça bastante os seus seios, uma máscara de gato, luvas com unhas do animal e uma bota preta. Para completar, sua arma é um chicote preto. 
+                            Todas as suas cenas combatendo o crime são monstruosas e parecem cenas de vídeo games medonhos.
+                            </Paragrafocenas>
                 </ContainerCenas>
 
                 <ContainerCenas>
@@ -86,6 +86,16 @@ function MulherGato(){
                     <ContainerInformacoesCenas>
                         <ImagCenas2 src={Tom}/>
                     </ContainerInformacoesCenas>
+
+                    <Paragrafocenas>
+                    Nos minutos iniciais do longa, Patience conhece um gato fofo e vira seu amigo, porém em uma manhã 
+                    seu amigo resolve escalar as paredes do prédio. Muito preocupada, a protagonista deduz que o seu amigo 
+                    peludo está em perigo e resolve ajudá-lo, sua solução é tentar escalar as paredes para conseguir pegar e
+                     trazê-lo de volta. Contudo, ela fica presa em uma viga e não consegue voltar para o seu apartamento, mas um 
+                     detetive estava passando pela rua e avistou a moça em perigo e resolveu salvá-la. Então, o herói invade o 
+                     apartamento dela e faz o mesmo percurso e consegue tirar ela da beira. Neste ponto do filme, é apresentado o interesse romântico 
+                     da protagonista, Tom.
+                    </Paragrafocenas>
                 </ContainerCenas>
 
                 <ContainerCenas>
@@ -98,8 +108,14 @@ function MulherGato(){
                     <ContainerInformacoesCenas>
                         <ImagCenas2 src={sally}/>
                     </ContainerInformacoesCenas>
-                </ContainerCenas>
 
+                    <Paragrafocenas>
+                            A melhor amiga de Patience, Sally, a clássica melhor amiga fora do padrão e engraçada. 
+                            A personagem sem enredo, a qual é o grande estereótipo de quase todas as melhores amigas de filmes e séries dos anos 2000, 
+                            é usada em momentos cômicos para divertir a plateia. Ela não tem personalidade, não é destaque no filme, 
+                            seu prazer é flertar e se relacionar com os homens e nem isso consegue. 
+                        </Paragrafocenas>
+                </ContainerCenas>
             </CardCenas>
 
 

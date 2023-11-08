@@ -8,10 +8,12 @@ import axios from "axios"
 import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, IconesPost, MiniCardizinho, Textinho } from "../../components/Post/styled"
 import gostar from "../../assets/gostar.png"
 import botaoExcluir from "../../assets/botaoExcluir.png"
+import { useParams } from 'react-router-dom';
 
 function Comentarios(){
 
     const [descricao, setDescricao] = useState("");
+    const { id } = useParams();
 
     const handleComentar = async(e)=>{
         const data={
@@ -28,10 +30,11 @@ function Comentarios(){
         }
     }
 
-    const [postComentarios, setpostComentarios]=useState([]);
+    const [postComentarios, setpostComentarios] = useState([]);
 
     const fetchData = async()=>{
-        const response = await axios.get('http://localhost:3008/api/comentarios');
+        const response = await axios.get('http://localhost:3008/api/comentarios/' + id);
+        console.log(response.data.data)
         setpostComentarios(response.data.data)
     };
 
@@ -71,8 +74,8 @@ function Comentarios(){
                      </BotaoPublicar>
                 </ContainerComentarios>
 
-                {postComentarios.map((comentarios)=>{
-                    return<>
+                {postComentarios.map((comentarios) => (
+                                            
                         <CardPost>
                             <CardEsquerda>
                                 <Bolinha>
@@ -97,12 +100,8 @@ function Comentarios(){
                             <BotaoIcones>
                                 <IconesPost src={gostar}/>
                             </BotaoIcones>
-                        </CardPost>
-                    </>
-                })}
-
-
-                
+                        </CardPost>                    
+                ))}             
 
 
             </ContainerCenter>
