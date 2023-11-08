@@ -1,8 +1,14 @@
 const connection = require("../config/db");
 
 async function listComentarios(request, response) {
+  const params = Array(request.params.id);
+
+  const query = 'select c.descricao ' +
+  ' from comentarios c, posts p ' +
+  ' where c.id_post = ?  and c.id_post = p.id; ';
+
   // Preparar o comando de execução no banco
-  connection.query("SELECT * FROM comentarios", (err, results) => {
+  connection.query(query, params, (err, results) => {
     try {
       // Tenta retornar as solicitações requisitadas
       if (results) {

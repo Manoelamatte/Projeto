@@ -8,7 +8,7 @@ const {
   deleteComentario,
 } = require("../controllers/comentariosController");
 
-router.get("/comentarios", listComentarios);
+router.get("/comentarios/:id", listComentarios);
 router.post("/comentario/create", storeComentario);
 // editar o post:
 router.put("/comentario/:id", updateComentario);
