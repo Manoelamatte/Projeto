@@ -6,6 +6,8 @@ import wallCapitaM from "../../../assets/wallCapitaM.png"
 import capitaMascara from "../../../assets/capitaMascara.png"
 import cenaMotoqueiro from "../../../cenas/8_CapitaMarvel/cenaMotoqueiro.jpeg"
 import uniformeCapita from "../../../cenas/8_CapitaMarvel/uniformeCapita.jpeg"
+import NickeCarol from "../../../cenas/8_CapitaMarvel/NickeCarol.png"
+import MariaRam from "../../../cenas/8_CapitaMarvel/MariaRam.jpeg"
 
 function CapitaMarvel(){
     return(
@@ -45,7 +47,7 @@ function CapitaMarvel(){
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
-                          
+                          <ImagCenas2 src={MariaRam}/>
                         </ContainerInformacoesCenas>
                     </ContainerCenas>
 
@@ -59,7 +61,7 @@ function CapitaMarvel(){
                         </MiniCardTitulo>
 
                          <ContainerInformacoesCenas>
-                               
+                               <ImagCenas2 src={NickeCarol}/>
                          </ContainerInformacoesCenas>
                     </ContainerCenas>
 

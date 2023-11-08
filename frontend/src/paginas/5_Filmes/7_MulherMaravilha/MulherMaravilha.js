@@ -1,9 +1,12 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, FilmeCard1, FilmeCard2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import porterMulherMaravilha from "../../../assets/posterMulherMaravilha.jpg"
 import WallMulherM from "../../../assets/WallMulherM.png"
 import espada from "../../../assets/espada.png"
+import MulherTrincheiras from "../../../cenas/7_MulherMaravilha/MulherTrincheiras.png"
+import Congresso from "../../../cenas/7_MulherMaravilha/Congresso.png"
+import drVeneno from "../../../cenas/7_MulherMaravilha/drVeneno.jpg"
 
 function MulherMaravilha(){
 
@@ -35,6 +38,10 @@ function MulherMaravilha(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={MulherTrincheiras}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -45,6 +52,10 @@ function MulherMaravilha(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={drVeneno}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -55,6 +66,10 @@ function MulherMaravilha(){
 
                             <TituloCenas>oi</TituloCenas>
                         </MiniCardTitulo>
+
+                        <ContainerInformacoesCenas>
+                            <ImagCenas2 src={Congresso}/>
+                        </ContainerInformacoesCenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
