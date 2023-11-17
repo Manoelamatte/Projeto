@@ -37,13 +37,14 @@ async function listPosts(request, response) {
 async function storePost(request, response) {
   // Preparar o comando de execução no banco
   const query =
-    "INSERT INTO posts(descricao, imagem, id_usuario) VALUES(?, ?, ?);";
+    "INSERT INTO posts(descricao, imagem, id_usuario, titulo) VALUES(?, ?, ?, ?);";
 
   // Recuperar os dados enviados na requisição
   const params = Array(
     request.body.descricao,
     request.body.imagem,
-    request.body.idUsuario
+    request.body.idUsuario,
+    request.body.titulo
   );
 
   // Executa a ação no banco e valida os retornos para o client que realizou a solicitação
@@ -78,13 +79,14 @@ async function storePost(request, response) {
 // Função que atualiza o usuário no banco
 async function updatePost(request, response) {
   // Preparar o comando de execução no banco
-  const query = "UPDATE posts SET `descricao` = ?, `imagem` = ? WHERE `id` = ?";
+  const query = "UPDATE posts SET `descricao` = ?, `titulo` = ?, `imagem` = ? WHERE `id` = ?";
 
   // Recuperar os dados enviados na requisição respectivamente
   const params = Array(
     request.body.descricao,
     request.body.imagem,
-    request.params.id // Recebimento de parametro da rota
+    request.params.id, // Recebimento de parametro da rota
+    request.body.titulo
   );
 
   // Executa a ação no banco e valida os retornos para o client que realizou a solicitação
