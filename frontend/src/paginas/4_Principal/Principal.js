@@ -96,7 +96,8 @@ function Principal(){
         
                         <CardDireita>
                             <Textinho>
-                            Enviado por @fulanadetal 
+                            Enviado por {post.idUsuario}
+                            {/* {usuarios.nome}  */}
                             </Textinho>
 
                             { idUsuario == post.id_usuario ?

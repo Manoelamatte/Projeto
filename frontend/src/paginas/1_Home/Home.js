@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header"
 import {ContainerGeral2 } from "../../styledGlobal"
-import { CardSobre, ContainerSobre, InputHome, CardTituloHome, TituloHome, ParagrafoSobre, BotaoIcones, IconesSobre, ContainerIcones, FotoAutora } from "./styled"
+import { CardSobre, ContainerSobre, InputHome, CardTituloHome, TituloHome, ParagrafoSobre, BotaoIcones, IconesSobre, ContainerIcones, FotoAutora, CardFoto, CardFinal } from "./styled"
 import style from "./style.css"
 import { Content, Slides } from "../../components/Carrossel/styled"
 import Marvel from "../../assets/Marvel.jpg"
@@ -8,10 +8,10 @@ import MarvelH from "../../assets/MarvelH.png"
 import dcW from "../../assets/dcW.jpg"
 import DcH from "../../assets/DcH.png"
 import Footer from "../../components/Footer/Footer"
-import iconeGithub from "../../assets/iconeGithub.png"
-import PDF from "../../assets/PDF.png"
 import fotoPerfil from "../../assets/fotoPerfil.png"
-
+import iconeGithub from "../../assets/iconeGithub.png"
+import instagram from "../../assets/instagram.png"
+import documento from "../../assets/documento.png"
 
 function Home(){
     return(
@@ -57,7 +57,9 @@ function Home(){
             <ContainerSobre>
                 <CardSobre>
                     <CardTituloHome>
-                        <TituloHome>Sobre o projeto:</TituloHome>
+                        <TituloHome>
+                            DE ONDE VEIO O CINE FEMINISMO?
+                        </TituloHome>
                     </CardTituloHome>
 
                     <ParagrafoSobre>
@@ -67,34 +69,26 @@ function Home(){
                       educativa para fornecer análises críticas e reflexivas sobre as cenas sexualizadas de personagens femininas
                       em filmes de super-heróis.  Além disso, promover um espaço de discussão construtiva sobre a representação de gênero nas produções da Marvel e DC.
                       </ParagrafoSobre>
-
-                    <ContainerIcones>
-                      <BotaoIcones>
-                            <IconesSobre src={iconeGithub}/>
-                      </BotaoIcones>
-
-                      <BotaoIcones>
-                            <IconesSobre src={PDF}/>
-                      </BotaoIcones>
-                      </ContainerIcones>
                 </CardSobre>
 
-                <CardSobre>
-                      <CardTituloHome>
-                        <TituloHome>Sobre a autora:</TituloHome>
-                      </CardTituloHome>
-
-                      <ParagrafoSobre>
-                        Olá, sou Manoela Soares Matté. Tenho 17 anos e atualmente resido no Rio Grande do Sul. 
-                        Sou estudante da escola de Ensino Médio Senac São Leopoldo com foco em Tecnologia e faço parte do último ano do Ensino Médio.
-                        Espero que aproveite o site! Obrigada
-                      </ParagrafoSobre>
-
-                      <FotoAutora src={fotoPerfil}/>
-                </CardSobre>
+                <CardFoto>
+                    <FotoAutora src={fotoPerfil}/>
+                </CardFoto>
             </ContainerSobre>
 
-            {/* <Footer/> */}
+            <CardFinal>
+                <ContainerIcones>
+                    <IconesSobre src={instagram}/>
+                </ContainerIcones>
+
+                <ContainerIcones>
+                     <IconesSobre src={iconeGithub}/>
+                </ContainerIcones>
+                    
+                <ContainerIcones>
+                  <IconesSobre src={documento}/>
+                </ContainerIcones>
+            </CardFinal>
         </ContainerGeral2>
         </>
     )

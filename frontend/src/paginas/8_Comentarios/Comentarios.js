@@ -13,6 +13,7 @@ import { useParams } from 'react-router-dom';
 function Comentarios(){
 
     const [descricao, setDescricao] = useState("");
+    
     const { id } = useParams();
 
     const handleComentar = async(e)=>{
@@ -85,7 +86,7 @@ function Comentarios(){
 
                             <CardDireita>
                                 <Textinho>
-                                    Comentado por @fulanadetal 
+                                    Comentado por 
                                 </Textinho>
 
                                 <BotaoIconesCima>
