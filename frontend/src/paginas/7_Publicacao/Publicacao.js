@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom"
 import adicionarfoto from "../../assets/adicionarfoto.png"
 import { useState } from "react"
 import axios from "axios"
+import { CardTitulo } from "../../components/Post/styled"
 
 function Publicacao(){
 
@@ -15,11 +16,12 @@ function Publicacao(){
     }
 
     const [descricao, setDescricao] = useState("");
-
+    const [titulo, setTitulo] = useState("")
 
     const handleComment = async (e) => {
         const data = {
             descricao,
+            titulo,
             imagem: null,
             idUsuario: localStorage.getItem('id')
         };
@@ -48,13 +50,22 @@ function Publicacao(){
                             <ImagemMascara src={MascaraLogo}/>
                         </CardBolinha>
 
+                       
+
                         <TextoMiniContainer>
                          {/* Comente aqui sobre o que você anda assistindo! Queremos muito saber!  */}
                              <TituloPostagem
                               placeholder="Digite aqui o seu título " 
+                              type="text" 
+                              name="titulo" 
+                              value={titulo}
+                              onChange={(e)=>setTitulo(e.target.value)}
+                              width={60}
                              />
                         </TextoMiniContainer>
                     </MiniContainer>
+
+
 
                     <InputPostagem 
                         type="text" 

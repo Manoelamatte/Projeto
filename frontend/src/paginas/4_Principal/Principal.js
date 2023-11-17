@@ -1,6 +1,6 @@
 import Header2 from "../../components/Header/Header2"
 import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
-import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
+import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, CardTitulo, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
 import { BotaoPrincipal, ImagemPrincipal } from "./styled"
 import MaisPublic from "../../assets/MaisPublic.png"
 import { useNavigate } from "react-router-dom"
@@ -96,7 +96,7 @@ function Principal(){
         
                         <CardDireita>
                             <Textinho>
-                            Enviado por {post.idUsuario}
+                            Enviado por 
                             {/* {usuarios.nome}  */}
                             </Textinho>
 
@@ -108,14 +108,10 @@ function Principal(){
                             : null }
 
 
-                            {/* <BotaoIcones>
-                              <IconesPost src={botaoExcluir}/>
-                            </BotaoIcones>
-                            */}
-        
                             <MiniCardizinho>
                                 {post.descricao}
                             </MiniCardizinho>
+
                         </CardDireita>
         
                         <BotaoIcones onClick={()=> handleLike(post.id)}>
