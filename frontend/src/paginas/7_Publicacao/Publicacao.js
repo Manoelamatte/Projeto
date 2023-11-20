@@ -1,19 +1,16 @@
 import Header2 from "../../components/Header/Header2"
-import { ContainerCenter, ContainerGeral, ContainerGeral4 } from "../../styledGlobal"
-import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, INputImagem, InputPostagem, InputPublic, MiniContainer, TextoMiniContainer, TituloPostagem } from "./styled"
+import { ContainerCenter, ContainerGeral4 } from "../../styledGlobal"
+import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, InputPostagem, MiniContainer, TextoMiniContainer, TituloPostagem } from "./styled"
 import MascaraLogo from "../../assets/MascaraLogo.png"
 import { useNavigate } from "react-router-dom"
-import adicionarfoto from "../../assets/adicionarfoto.png"
+// import adicionarfoto from "../../assets/adicionarfoto.png"
 import { useState } from "react"
 import axios from "axios"
-import { CardTitulo } from "../../components/Post/styled"
 
 function Publicacao(){
 
     const navigate = useNavigate()
-    const goToPrincipal = ()=>{
-        navigate('/principal')
-    }
+   
 
     const [descricao, setDescricao] = useState("");
     const [titulo, setTitulo] = useState("")

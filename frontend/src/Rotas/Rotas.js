@@ -15,6 +15,7 @@ import HomemFerro2 from "../paginas/5_Filmes/4_HomemFerro2/HomemFerro2"
 import EsquadraoSuicida from "../paginas/5_Filmes/5_EsquadraoSuicida/EsquadraoSuicida"
 import Deadpool from "../paginas/5_Filmes/6_Deadpool/Deadpool"
 import Comentarios from "../paginas/8_Comentarios/Comentarios"
+import Editar from "../paginas/9_Editar/Editar"
 
 function Rotas(){
     return(
@@ -38,6 +39,7 @@ function Rotas(){
                 <Route path="mulhermaravilha"   element={<MulherMaravilha/>}/>
                 <Route path="capitamarvel"      element={<CapitaMarvel/>}/>
                 <Route path="*"                 element={<Erro/>}/>
+                <Route path="editar" element={<Editar/>}/>
             </Routes>
         </BrowserRouter>
         </>

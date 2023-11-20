@@ -1,0 +1,30 @@
+.menulateral{
+    width: 0px;
+    height: 100vh;
+    background-color: rgb(247, 236, 236);
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .2s;
+    z-index: 2;
+}
+
+.menulateral:hover {
+    width: 384px;
+}
+
+.hamburguerButton:hover +.menulateral{
+    width: 384px;
+} 
+
+.hamburguerButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}

@@ -56,8 +56,16 @@ export const Textinho = styled.p`
 export const IconesPost = styled.img`
     width: 30px;
     height: 30px;
-    margin-left: -500%;
+    margin-left: -550%;
+    
 `
+export const IconeEditar = styled.img`
+    width: 30px;
+    height: 30px;
+    margin-left: -800%;
+  
+`
+
 export const IconesPost2 = styled.img` 
     width: 30px;
     height: 30px;

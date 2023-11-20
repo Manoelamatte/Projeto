@@ -1,4 +1,4 @@
-import { BotaoHeader, BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, Menutitulo, TituloHeader, TituloMenu } from "./styled"
+import {  BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, Menutitulo } from "./styled"
 import iconeMenu from "../../assets/iconeMenu.png"
 import heroinaIcone from "../../assets/heroinaIcone.png"
 import { useNavigate } from "react-router-dom"
@@ -9,6 +9,7 @@ import casa from "../../assets/casa.png"
 import { useEffect } from "react"
 import logoCine from "../../assets/logoCine.png"
 import logoCinePreto from "../../assets/logoCinePreto.png"
+import style2 from "./style2.css"
 
 function Header2() {
 
@@ -75,7 +76,11 @@ function Header2() {
                 <TituloHeader>CINE FEMINISMO</TituloHeader> */}
                 <LogoCineFem src={logoCine}/>
 
-                <ImagemProfire src={heroinaIcone} />
+                <button class="hamburguerButton">
+                  <ImagemProfire src={heroinaIcone} />
+                </button>
+
+
             </ContainerHeader>
 
         </>

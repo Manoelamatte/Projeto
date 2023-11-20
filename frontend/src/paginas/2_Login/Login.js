@@ -17,6 +17,7 @@ function Login(){
         localStorage.setItem('email', email)
         localStorage.setItem('id', id)
         localStorage.setItem('nome', nome)
+        
 
         console.log(nome)
     }
@@ -41,7 +42,7 @@ function Login(){
              const email = response.data.data[0].email;
              const id = response.data.data[0].id;
              const nome = response.data.data[0].nome
-             
+          
              //função para salvar informalções depois que o usuario logu
              saveUserinfoLocalStorage(email, token, id, nome)
             navigate('/principal')

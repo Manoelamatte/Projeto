@@ -24,9 +24,9 @@ export const ImagemMenu = styled.img`
 `
 
 export const ImagemProfire = styled.img`
-    width: 04%;
-    height: 70%;
-    margin: 10px;
+    width: 09%;
+    height: 75%;
+    margin-left: 90%;
 `
 
 export const BotaoHeader = styled.button`
@@ -81,6 +81,7 @@ export const Menutitulo = styled.p`
 export const LogoCineFem = styled.img`
     width: 16vw;
     height: 20vh;
+    margin-left: 32%;
 `
 
 export const LogoCineBar = styled.img`

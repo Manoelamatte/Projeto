@@ -1,6 +1,6 @@
 import Header2 from "../../components/Header/Header2"
 import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
-import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, CardTitulo, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
+import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, CardTitulo, IconeEditar, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
 import { BotaoPrincipal, ImagemPrincipal } from "./styled"
 import MaisPublic from "../../assets/MaisPublic.png"
 import { useNavigate } from "react-router-dom"
@@ -34,6 +34,10 @@ function Principal(){
 
     const goToComentarios = (id) => {        
         navigate('/comentarios/' + id)
+    }
+
+    const goToEditar = (id)=>{
+        navigate('/editar')
     }
 
     // função deletar
@@ -103,10 +107,15 @@ function Principal(){
                             { idUsuario == post.id_usuario ?
                             <BotaoIconesCima onClick={()=> handleExcluir(post.id)}>
                                <IconesPost src={botaoExcluir}/>
-                               {/* <IconesPost src={botaoEditar}/> */}
                             </BotaoIconesCima>
                             : null }
 
+                          { idUsuario == post.id_usuario ?
+                            <BotaoIconesCima onClick={()=>goToEditar(post.id)}>
+                              <IconeEditar src={botaoEditar}/>
+                            </BotaoIconesCima>
+                           : null }
+                           
 
                             <MiniCardizinho>
                                 {post.descricao}
