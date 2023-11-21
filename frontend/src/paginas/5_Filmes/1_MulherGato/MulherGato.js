@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, Gifs, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo, Paragrafocenas } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, Gifs, IMGCenas, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloDisponivel, TituloInfo, Paragrafocenas, Disponivel } from "../8_CapitaMarvel/styled"
 import mulherGato from "../../../assets/mulherGato.jpg"
 import WallMulherG from "../../../assets/WallMulherG.png"
 import uniformeMG from "../../../assets/uniformeMG.jpg"
@@ -22,7 +22,7 @@ function MulherGato(){
         </FilmeCard1>
 
             <BotaoStreaming>HBO MAX</BotaoStreaming>
-
+            <Disponivel>Disponível em: </Disponivel>
 {/* ................................................................................... */}
 
 
@@ -57,11 +57,16 @@ function MulherGato(){
                              <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
 
+                        <TituloCenas>Mulher Gato lambendo o rosto do policial </TituloCenas>
                     </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
                             <ImagCenas2 src={lambidaCena}/>
                         </ContainerInformacoesCenas>
+
+                        <Paragrafocenas>
+                        O filme se volta a uma balada para maiores de idade, há diversas mulheres sensualizando para os homens e a personagem decide usar de seu corpo para atrair o seu inimigo. Ela dança de uma forma sensual e ainda bate nas pessoas com o seu chicote numa tentativa de seduzir. Na segunda cena, os personagens coadjuvantes estão em uma peça de teatro. Após ameaçar seu chefe, a mulher gato inicia uma tentativa de fuga contra o policial, Tom. Contudo, ela começa a sensualizar e fugir dele simultaneamente, em uma parte específica ela lambe o rosto dele para distraí-lo.
+                        </Paragrafocenas>
                 </ContainerCenas>
 
                 <ContainerCenas>
@@ -69,11 +74,18 @@ function MulherGato(){
                         <BolinhaCenas>
                             <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
+
+
+                        
                     </MiniCardTitulo>
 
                     <ContainerInformacoesCenas>
                         <Gifs src={mulherBunda}/>
                     </ContainerInformacoesCenas>
+
+                    <Paragrafocenas>
+                    Nessa cena específica, um dos alunos convida Phillips e Tom para jogarem basquete um contra o outro. Toda a cena é um constrangimento, por ela acabar de se transformar em um animal, ela começa a pular alto, escala a parede, entre outros. Mas o problema da cena é que, inesperadamente, ela começa a sensualizar no meio de uma partida de basquete. Além disso, a câmera foca na bunda dela e ela começa a rebolar e eles ficam se esfregando enquanto tentam tirar a bola um do outro. Uma parte que teoricamente era para ser divertida e acabou sendo inconveniente. 
+                    </Paragrafocenas>
                 </ContainerCenas>
 
                 <ContainerCenas>
@@ -81,6 +93,8 @@ function MulherGato(){
                         <BolinhaCenas>
                             <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
+
+                        <TituloCenas> Patience Phillip sendo salva por Tom  </TituloCenas>
                     </MiniCardTitulo>
 
                     <ContainerInformacoesCenas>
@@ -103,6 +117,8 @@ function MulherGato(){
                         <BolinhaCenas>
                             <SimboloFilmes src={Gatomascara}/>
                         </BolinhaCenas>
+
+                        <TituloCenas> Sally  </TituloCenas>
                     </MiniCardTitulo>
 
                     <ContainerInformacoesCenas>

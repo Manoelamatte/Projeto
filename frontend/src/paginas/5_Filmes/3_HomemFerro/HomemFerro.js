@@ -1,6 +1,6 @@
 import Header2 from "../../../components/Header/Header2"
 import { ContainerGeral2 } from "../../../styledGlobal"
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, Disponivel, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Paragrafocenas, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled"
 import WallFerro from "../../../assets/WallFerro.png"
 import homemFerro1 from "../../../assets/homemFerro1.jpg"
 import mascaraHF from "../../../assets/mascaraHF.png"
@@ -21,6 +21,7 @@ function HomemFerro(){
 
             
             <BotaoStreaming>DISNEY +</BotaoStreaming>
+            <Disponivel>Disponível em: </Disponivel>
 
 
 {/* ....................................................................... */}
@@ -32,12 +33,16 @@ function HomemFerro(){
                                 <SimboloFilmes src={mascaraHF}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>O segurança de Tony Stark elogiando a beleza da jornalista </TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
                             <ImagCenas2 src={CenaJornalista}/>
                         </ContainerInformacoesCenas>
+
+                        <Paragrafocenas>
+                            Como em qualquer filme de garanhão, o personagem principal é cercado por mulheres tentadoras e com roupas curtas, servindo como objeto sexual aos homens. Nesse mesmo instante, Tony e seu segurança particular apresentam um diálogo bem perturbador. Na cena, a jornalista da revista Vanity Fair se apresenta como Christine Everhart e questiona se pode fazer algumas perguntas ao Sr.Stark Nesse momento para fazê-lo olhar para a mulher, o seu segurança cochila “Ela é linda” e Stark responde “Opa!”. No final, a jornalista termina em sua cama, deixando uma imagem bastante distorcida sobre o profissionalismo feminismo.
+                        </Paragrafocenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -46,12 +51,16 @@ function HomemFerro(){
                                 <SimboloFilmes src={mascaraHF}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>A secretária de Tony Stark ofendendo a jornalista </TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
                             <ImagCenas2 src={cenaLixo}/>
                         </ContainerInformacoesCenas>
+
+                        <Paragrafocenas>
+                            Outro clássico que está presente na construção de filmes machistas, é essa grande rivalidade feminina. Em algumas histórias, essa rivalidade é explorada como uma fonte de conflito e drama, retratando mulheres competindo por amor, poder ou reconhecimento. Esses filmes podem reforçar estereótipos negativos, apresentando mulheres fofoqueiras, manipuladoras e invejosas umas com as outras. Em Homem de Ferro, esse fator é particularmente evidente entre os personagens Pepper e as mulheres que estão intimamente relacionadas com o personagem título, como a jornalista da revista Vanity Fair.
+                        </Paragrafocenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -60,12 +69,16 @@ function HomemFerro(){
                                 <SimboloFilmes src={mascaraHF}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Comissárias de bordo dançam para o Tony e seu amigo</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
                             <ImagCenas2 src={DancaAviao}/>
                         </ContainerInformacoesCenas>
+
+                        <Paragrafocenas>
+                            Sucessivamente, apresenta-se o personagem principal e seu amigo bebendo, enquanto as atendentes dançam no Pole Dance, demonstrando sensualidade, sem a metade do uniforme. Em seguida, surgem diversas cenas em que Tony Stark é o herói do filme, ao passo que as mulheres são enquadradas de diversas maneiras eróticas e carnais.
+                        </Paragrafocenas>
                     </ContainerCenas>
 
                     <ContainerCenas>
@@ -80,6 +93,10 @@ function HomemFerro(){
                         <ContainerInformacoesCenas>
                             <ImagCenas2 src={Pepper}/>
                         </ContainerInformacoesCenas>
+                        
+                        <Paragrafocenas>
+                                Apesar de ser uma personagem relevante para a trama, como assistente e interesse amoroso de Tony Stark, ela é, muitas vezes representada com estereótipos femininos clássicos. Além de ser frequentemente retratada com roupas inadequadas e com um foco excessivo em sua aparência física, o que acentua a sua sexualidade em detrimento de sua personalidade e das habilidades profissionais.
+                            </Paragrafocenas>
                     </ContainerCenas>
                 </CardCenas>
 

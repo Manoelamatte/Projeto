@@ -1,6 +1,6 @@
 import Header2 from "../../components/Header/Header2"
 import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
-import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, CardTitulo, IconeEditar, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
+import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, IconeEditar, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
 import { BotaoPrincipal, ImagemPrincipal } from "./styled"
 import MaisPublic from "../../assets/MaisPublic.png"
 import { useNavigate } from "react-router-dom"
@@ -54,6 +54,7 @@ function Principal(){
         }
     }
 
+    let like = false;
 
     // função like
     const handleLike = async(postId)=>{
@@ -66,8 +67,10 @@ function Principal(){
 
         if(response.data.success){
             alert(response.data.message);
+            
         }else{
             alert('não curtiu')
+           
         }
     }
 

@@ -1,6 +1,6 @@
-.menulateral{
+.menulateral2{
     width: 0px;
-    height: 100vh;
+    height: 45vh;
     background-color: rgb(247, 236, 236);
     padding: 0px;
     position: fixed;
@@ -8,15 +8,15 @@
     right: 0;
     overflow: hidden;
     transition: .2s;
-    z-index: 2;
 }
 
-.menulateral:hover {
-    width: 384px;
+.menulateral2:hover {
+    width: 284px;
+    
 }
 
-.hamburguerButton:hover +.menulateral{
-    width: 384px;
+.hamburguerButton:hover +.menulateral2{
+    width: 284px;
 } 
 
 .hamburguerButton{

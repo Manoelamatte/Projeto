@@ -1,4 +1,4 @@
-import {  BotaoMenu, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, Menutitulo } from "./styled"
+import {  BotaoMenu, BotaoMenuDireita, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, LogoMenu, Menutitulo, MenutituloDireita } from "./styled"
 import iconeMenu from "../../assets/iconeMenu.png"
 import heroinaIcone from "../../assets/heroinaIcone.png"
 import { useNavigate } from "react-router-dom"
@@ -61,25 +61,29 @@ function Header2() {
                                 </BotaoMenu>
                         </li>
                     </ul>
-
-                    <Menutitulo> SAIR </Menutitulo>
-                    <ul>
-                        <li>
-                            <BotaoMenu onClick={handleLogout}>
-                            <IconesMenu src={sair} />
-                                LOG OUT
-                            </BotaoMenu>
-                        </li>
-                    </ul>
                 </nav>
-{/* 
-                <TituloHeader>CINE FEMINISMO</TituloHeader> */}
+
                 <LogoCineFem src={logoCine}/>
 
+            
                 <button class="hamburguerButton">
                   <ImagemProfire src={heroinaIcone} />
                 </button>
+                
+                <nav class="menulateral2">
 
+                    <LogoMenu  src={heroinaIcone}/>
+                    <ul>                    
+                        <li>
+                            <MenutituloDireita> SAIR </MenutituloDireita>
+
+                            <BotaoMenuDireita onClick={handleLogout}>
+                            <IconesMenu src={sair} />
+                                LOG OUT
+                            </BotaoMenuDireita>
+                        </li>
+                    </ul>
+                </nav>
 
             </ContainerHeader>
 

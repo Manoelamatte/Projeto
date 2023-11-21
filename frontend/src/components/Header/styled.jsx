@@ -72,10 +72,42 @@ export const BotaoMenu = styled.button`
         background-color:  #950101;
     }
 `
+
+
+export const BotaoMenuDireita = styled.button`
+    border: none;
+    width: 21vw;
+    padding: 20px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    cursor: pointer;
+    color:  black;
+    margin-left: -10%;
+    background-color: transparent;
+
+    &:hover{
+        background-color:  #950101;
+    }
+`
+
+
 export const Menutitulo = styled.p`
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-left: 40px; 
+`
+
+export const MenutituloDireita = styled.p`
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+`
+
+export const LogoMenu = styled.img`
+    width: 06vw;
+    height: 13vh;
+    margin: 10px;
+    margin-left: 40%;
 `
 
 export const LogoCineFem = styled.img`

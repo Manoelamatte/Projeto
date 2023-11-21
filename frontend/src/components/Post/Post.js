@@ -1,4 +1,3 @@
-import { ContainerGeral } from "../../styledGlobal"
 import { Bolinha, BotaoIcones, CardDireita, CardEsquerda, CardPost, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "./styled"
 import MascaraLogo from "../../assets/MascaraLogo.png"
 import comentario from "../../assets/comentario.png"

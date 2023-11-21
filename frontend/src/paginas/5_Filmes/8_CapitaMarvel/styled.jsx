@@ -22,7 +22,7 @@ export const CardCenas = styled.div`
     background: transparent;
     height: 100%;
     margin: 10px;
-    margin-top: 70px;
+    margin-top: 10%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ export const CardInformacoes = styled.div`
     border-radius: 20px;
     flex-direction: column;
     box-shadow:  05px 5px 5px black;
-    margin-top: 90px;
+    margin-top: 12%;
 `
 
 export const TituloInfo = styled.h2`
@@ -75,6 +75,12 @@ export const BotaoStreaming= styled.button`
     font-size: 12pt;
 `
 
+export const Disponivel = styled.h3`
+    color: white;
+    margin-top: -91px;
+    margin-left: 22%;
+`
+
 export const TituloDisponivel = styled.h3`
     color: white;
     margin-top: 15px;
@@ -92,7 +98,7 @@ export const ContainerCenas = styled.div`
     width: 60vw;
     display: flex;
     background: white;
-    height: 42vw;
+    height: 100%;
     border-radius: 30px;
     margin-top: 20px;
     align-items: center;
@@ -122,7 +128,7 @@ export const BolinhaCenas = styled.div`
   display: flex;
 `
 
-export const TituloCenas = styled.h3`
+export const TituloCenas = styled.h4`
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 `
@@ -162,6 +168,8 @@ export const Gifs = styled.img`
 export const Paragrafocenas= styled.p`
   font-family: Arial, Helvetica, sans-serif; 
   text-align: justify;
-  margin: 20px;
+  margin: 15px;
+  margin-left: 36px;
+  margin-right: 36px;
   font-size: 12pt;
 `
