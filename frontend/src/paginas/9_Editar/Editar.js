@@ -4,22 +4,23 @@ import { BotaoPublicar, CardBolinha, ComentariosCardPublic, ImagemMascara, Input
 import MascaraLogo from "../../assets/MascaraLogo.png"
 import { useState } from "react";
 import axios from "axios"
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 
 function Editar(){
-
+    const {id} = useParams();
     const [descricao, setDescricao] = useState("");
     const [titulo, setTitulo] = useState("");
+    const location = useLocation();
+    const postData = location.state.data;
+    //alert(JSON.stringify(postData))
     
-
     const navigate = useNavigate()
 
     const handleAtualizar = async (idPost) =>{
         const data ={
             descricao,
             titulo,
-            idPost: localStorage.getItem('id'),
-           
+            idPost: localStorage.getItem('id')           
         };
         console.log(data);
         const response = await axios.put('http://localhost:3008/api/post/' + idPost);
@@ -49,7 +50,7 @@ function Editar(){
                             placeholder=" Atualize aqui o que você está pensando."
                             type="text" 
                             name="titulo"
-                            value={titulo}
+                            defaultValue={postData.titulo}
                             onChange={(e)=>setTitulo(e.target.value)}
                             />
                         </TextoMiniContainer>
@@ -60,7 +61,7 @@ function Editar(){
                         name="descricao" 
                         width={60}
                         placeholder="Atualize aqui o que você está pensando." 
-                        value={ descricao } 
+                        defaultValue={postData.descricao} 
                         onChange={(e)=>setDescricao(e.target.value)}
                         />
 

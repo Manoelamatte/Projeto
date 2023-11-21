@@ -3,7 +3,7 @@ import { ContainerCenter, ContainerGeral2 } from "../../styledGlobal"
 import { Bolinha, BotaoIcones, BotaoIconesCima, CardDireita, CardEsquerda, CardPost, IconeEditar, IconesPost, ImagemMascara, MiniCardizinho, Textinho } from "../../components/Post/styled"
 import { BotaoPrincipal, ImagemPrincipal } from "./styled"
 import MaisPublic from "../../assets/MaisPublic.png"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import MascaraLogo from "../../assets/MascaraLogo.png"
 import comentario from "../../assets/comentario.png"
@@ -37,7 +37,7 @@ function Principal(){
     }
 
     const goToEditar = (id)=>{
-        navigate('/editar')
+        navigate('/editar/' + id)
     }
 
     // função deletar
@@ -54,8 +54,6 @@ function Principal(){
         }
     }
 
-    let like = false;
-
     // função like
     const handleLike = async(postId)=>{
         const data ={
@@ -63,19 +61,15 @@ function Principal(){
             id_usuario: localStorage.getItem('id')
         }
 
+        
         const response = await axios.post('http://localhost:3008/api/reacao/create', data);
 
         if(response.data.success){
             alert(response.data.message);
-            
         }else{
             alert('não curtiu')
-           
         }
     }
-
-
-
 
     return(
         <>
@@ -114,8 +108,11 @@ function Principal(){
                             : null }
 
                           { idUsuario == post.id_usuario ?
-                            <BotaoIconesCima onClick={()=>goToEditar(post.id)}>
-                              <IconeEditar src={botaoEditar}/>
+                            <BotaoIconesCima >  
+                                {/* onClick={() => goToEditar(post.id)} */}
+                                <Link to={'/editar/' + post.id} state={{data: post}}>
+                                    <IconeEditar src={botaoEditar}/>
+                                </Link>
                             </BotaoIconesCima>
                            : null }
                            

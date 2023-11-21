@@ -39,7 +39,7 @@ function Rotas(){
                 <Route path="mulhermaravilha"   element={<MulherMaravilha/>}/>
                 <Route path="capitamarvel"      element={<CapitaMarvel/>}/>
                 <Route path="*"                 element={<Erro/>}/>
-                <Route path="editar" element={<Editar/>}/>
+                <Route path="editar/:id" element={<Editar/>}/>
             </Routes>
         </BrowserRouter>
         </>

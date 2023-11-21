@@ -1,4 +1,4 @@
-import {  BotaoMenu, BotaoMenuDireita, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, LogoMenu, Menutitulo, MenutituloDireita } from "./styled"
+import {  BemVinde, BotaoMenu, BotaoMenuDireita, ContainerHeader, IconesMenu, ImagemMenu, ImagemProfire, LogoCineBar, LogoCineFem, LogoMenu, Menutitulo, MenutituloDireita } from "./styled"
 import iconeMenu from "../../assets/iconeMenu.png"
 import heroinaIcone from "../../assets/heroinaIcone.png"
 import { useNavigate } from "react-router-dom"
@@ -73,6 +73,7 @@ function Header2() {
                 <nav class="menulateral2">
 
                     <LogoMenu  src={heroinaIcone}/>
+                    <BemVinde>Bem vindo</BemVinde>
                     <ul>                    
                         <li>
                             <MenutituloDireita> SAIR </MenutituloDireita>

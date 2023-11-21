@@ -116,8 +116,19 @@ export const LogoCineFem = styled.img`
     margin-left: 32%;
 `
 
+export const LogoCineFem2 = styled.img`
+    width: 16vw;
+    height: 20vh;
+    margin-left: 10px;
+`
+
 export const LogoCineBar = styled.img`
     width: 25vw;
     height: 30vh;
     margin-left: 35px;
+`
+
+export const BemVinde = styled.h3`
+    color: black;
+    
 `

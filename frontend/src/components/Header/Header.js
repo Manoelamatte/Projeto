@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { BotaoHeader, ContainerHeader, LogoCineFem, TituloHeader } from "./styled"
+import { BotaoHeader, ContainerHeader, LogoCineFem, LogoCineFem2, TituloHeader } from "./styled"
 import logoCine from "../../assets/logoCine.png"
 
 
@@ -14,7 +14,7 @@ function Header(){
         <>
         <ContainerHeader>
             {/* <TituloHeader>CINE FEMINISMO</TituloHeader> */}
-            <LogoCineFem src={logoCine}/>
+            <LogoCineFem2 src={logoCine}/>
 
             <BotaoHeader onClick={goToLogin}>
                 Login

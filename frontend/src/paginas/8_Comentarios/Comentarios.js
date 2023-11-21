@@ -19,7 +19,8 @@ function Comentarios(){
     const handleComentar = async(e)=>{
         const data={
             descricao,
-            UsuarioId: localStorage.getItem('id')
+            id_usuario: localStorage.getItem('id'),
+            id_post: id
         };
         console.log(data)
         const response = await axios.post('http://localhost:3008/api/comentario/create', data);
@@ -75,9 +76,13 @@ function Comentarios(){
                      </BotaoPublicar>
                 </ContainerComentarios>
 
-                {postComentarios.map((comentarios) => (
-                                            
+
+                {postComentarios.map((comentarios) => {
+                    
+                            
+                    return<>
                         <CardPost>
+
                             <CardEsquerda>
                                 <Bolinha>
                                     <ImagemMascara src={MascaraLogo}/>
@@ -101,9 +106,13 @@ function Comentarios(){
                             <BotaoIcones>
                                 <IconesPost src={gostar}/>
                             </BotaoIcones>
-                        </CardPost>                    
-                ))}             
+                        </CardPost>  
+                        </>
+                                    
+                })}             
 
+
+              
 
             </ContainerCenter>
         </ContainerGeral2>
