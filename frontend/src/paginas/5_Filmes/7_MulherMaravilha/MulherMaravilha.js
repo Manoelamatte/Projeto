@@ -7,6 +7,8 @@ import espada from "../../../assets/espada.png"
 import MulherTrincheiras from "../../../cenas/7_MulherMaravilha/MulherTrincheiras.png"
 import Congresso from "../../../cenas/7_MulherMaravilha/Congresso.png"
 import drVeneno from "../../../cenas/7_MulherMaravilha/drVeneno.jpg"
+import gitM from "../../../cenas/7_MulherMaravilha/gifM.gif"
+import GifMulher from "../../../cenas/7_MulherMaravilha/GifMulher.gif"
 
 function MulherMaravilha(){
 
@@ -55,7 +57,7 @@ function MulherMaravilha(){
                                 <SimboloFilmes src={espada}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas> Dra.Isabel Maru</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
@@ -91,11 +93,11 @@ function MulherMaravilha(){
                                 <SimboloFilmes src={espada}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Cenas de luta</TituloCenas>
                         </MiniCardTitulo>
 
                           <ContainerInformacoesCenas>
-                            
+                            <ImagCenas2 src={gitM}/>
                         </ContainerInformacoesCenas>
 
                         <Paragrafocenas>
@@ -109,11 +111,11 @@ function MulherMaravilha(){
                                 <SimboloFilmes src={espada}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Moda feminina</TituloCenas>
                         </MiniCardTitulo>
         
                         <ContainerInformacoesCenas>
-
+                            <ImagCenas2 src={GifMulher}/>
                         </ContainerInformacoesCenas>
 
                         <Paragrafocenas>

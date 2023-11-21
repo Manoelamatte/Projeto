@@ -130,5 +130,6 @@ export const LogoCineBar = styled.img`
 
 export const BemVinde = styled.h3`
     color: black;
+    margin-left: 37%;
     
 `

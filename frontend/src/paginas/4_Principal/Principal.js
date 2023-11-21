@@ -11,11 +11,14 @@ import gostar from "../../assets/gostar.png"
 import axios from "axios"
 import botaoExcluir from "../../assets/botaoExcluir.png"
 import botaoEditar from "../../assets/botaoEditar.png"
+import gostarColorido from "../../assets/gostarColorido.png"
 
 function Principal(){
     const [postsList, setPostsList] = useState([]);
     const [isEnable, setEnable] = useState(false);
     const idUsuario = localStorage.getItem('id');
+
+    let like = false;
 
     const fetchData = async () => {
         const response = await axios.get('http://localhost:3008/api/posts');
@@ -55,7 +58,7 @@ function Principal(){
     }
 
     // função like
-    const handleLike = async(postId)=>{
+    const handleLike = async(postId, posts)=>{
         const data ={
             id_post: postId,
             id_usuario: localStorage.getItem('id')
@@ -63,6 +66,12 @@ function Principal(){
 
         
         const response = await axios.post('http://localhost:3008/api/reacao/create', data);
+
+        if(postsList.includes(posts.post.id)){
+            like = true;
+        }else{
+            like=false;
+        }
 
         if(response.data.success){
             alert(response.data.message);
@@ -124,7 +133,7 @@ function Principal(){
                         </CardDireita>
         
                         <BotaoIcones onClick={()=> handleLike(post.id)}>
-                             <IconesPost src={gostar}/>
+                             <IconesPost src={like ? gostarColorido: gostar}/>
                         </BotaoIcones>
         
                         <BotaoIcones onClick={() => goToComentarios(post.id)}>

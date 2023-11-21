@@ -10,6 +10,7 @@ import { useEffect } from "react"
 import logoCine from "../../assets/logoCine.png"
 import logoCinePreto from "../../assets/logoCinePreto.png"
 import style2 from "./style2.css"
+import megafone from "../../assets/megafone.png"
 
 function Header2() {
 
@@ -20,6 +21,10 @@ function Header2() {
 
     const goToPrincipal = ()=>{
         navigate('/principal')
+    }
+
+    const goToPubli = ()=>{
+        navigate('/publicacao')
     }
 
     useEffect(()=>{
@@ -59,6 +64,13 @@ function Header2() {
                                 <IconesMenu src={iconeFilmes} />
                                     PÁGINA FILMES
                                 </BotaoMenu>
+                        </li>
+
+                        <li>
+                            <BotaoMenu onClick={goToPubli}>
+                                <IconesMenu src={megafone}/>
+                                FAZER PUBLICAÇÃO
+                            </BotaoMenu>
                         </li>
                     </ul>
                 </nav>

@@ -87,7 +87,7 @@ function HomemFerro2(){
                                 <SimboloFilmes src={mascaraHF}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Natasha Romanoff</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>

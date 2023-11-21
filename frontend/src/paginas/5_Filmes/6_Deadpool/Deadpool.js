@@ -6,6 +6,9 @@ import wallDeadpool from "../../../assets/wallDeadpool.png"
 import MascaraDead from "../../../assets/MascaraDead.png"
 import cenaDeadpool from "../../../cenas/6_Deadpool/cenaDeadpool.jpeg"
 import MulherAssed from "../../../cenas/6_Deadpool/MulherAssed.jpeg"
+import DeadPu from "../../../cenas/6_Deadpool/DeadPu.jpeg"
+import cenaMis from "../../../cenas/6_Deadpool/cenaMis.jpeg"
+
 
 function Deadpool(){
     return(
@@ -70,7 +73,7 @@ function Deadpool(){
                             </MiniCardTitulo>
 
                             <ContainerInformacoesCenas>
-                                <ImagCenas2 />
+                                <ImagCenas2 src={DeadPu}/>
                             </ContainerInformacoesCenas>
 
                             <Paragrafocenas>
@@ -84,11 +87,11 @@ function Deadpool(){
                                     <SimboloFilmes src={MascaraDead}/>
                                 </BolinhaCenas>
 
-                                <TituloCenas></TituloCenas>
+                                <TituloCenas>Expressões machistas e sexistas</TituloCenas>
                             </MiniCardTitulo>
 
                             <ContainerInformacoesCenas>
-                                <ImagCenas2 />
+                               <ImagCenas2 src={cenaMis}/>
                             </ContainerInformacoesCenas>
 
                             <Paragrafocenas>

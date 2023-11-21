@@ -87,7 +87,7 @@ function HomemFerro(){
                                 <SimboloFilmes src={mascaraHF}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Pepper</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>

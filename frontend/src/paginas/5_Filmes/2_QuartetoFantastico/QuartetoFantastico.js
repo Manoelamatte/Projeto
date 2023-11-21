@@ -8,6 +8,7 @@ import QuartetoPoster from "../../../cenas/2_QuartetoFantastico/QuartetoPoster.j
 import CenaUniforme from "../../../cenas/2_QuartetoFantastico/CenaUniforme.webp"
 import CenaChris from "../../../cenas/2_QuartetoFantastico/CenaChris.jpg"
 import cenaBeijo from "../../../cenas/2_QuartetoFantastico/cenaBeijo.png"
+import sueQ from "../../../cenas/2_QuartetoFantastico/sueQ.gif"
 
 function Quartetofantatisco(){
     return(
@@ -70,8 +71,12 @@ function Quartetofantatisco(){
                                           <SimboloFilmes src={fogoMascara}/>
                                     </BolinhaCenas>
 
-                                    <TituloCenas>oi</TituloCenas>
+                                    <TituloCenas>As polêmicas cenas de nudez</TituloCenas>
                                 </MiniCardTitulo>
+
+                                <ContainerInformacoesCenas>
+                                    <ImagCenas2 src={sueQ}/>
+                                </ContainerInformacoesCenas>
 
                                 <Paragrafocenas>
                                         Uma das principais controvérsias do filme diz respeito às diversas cenas de “nudez” da personagem Sue Storm. Devido à sua condição de ser a Mulher Invisível, houve diferentes ocasiões em que Sue precisou tirar sua roupa para se tornar completamente invisível. Em uma das cenas, a personagem está correndo enquanto tira as suas roupas e, em seguida, uma tigela com um suco sendo derramado é exibida, simbolizando o prazer que a cena havia proporcionado aos telespectadores. Além da atriz aparecer de calcinha e sutiã no meio da multidão.
@@ -84,7 +89,7 @@ function Quartetofantatisco(){
                                           <SimboloFilmes src={fogoMascara}/>
                                     </BolinhaCenas>
 
-                                    <TituloCenas>oi</TituloCenas>
+                                    <TituloCenas>O clássico beijo sem consentimento</TituloCenas>
                                 </MiniCardTitulo>
 
                                 <ContainerInformacoesCenas>

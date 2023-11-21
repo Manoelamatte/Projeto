@@ -8,6 +8,8 @@ import cenaMotoqueiro from "../../../cenas/8_CapitaMarvel/cenaMotoqueiro.jpeg"
 import uniformeCapita from "../../../cenas/8_CapitaMarvel/uniformeCapita.jpeg"
 import NickeCarol from "../../../cenas/8_CapitaMarvel/NickeCarol.png"
 import MariaRam from "../../../cenas/8_CapitaMarvel/MariaRam.jpeg"
+import capitaGif from "../../../cenas/8_CapitaMarvel/capitaGIF.gif"
+import comandante from "../../../cenas/8_CapitaMarvel/comandante.jpeg"
 
 function CapitaMarvel(){
     return(
@@ -50,7 +52,7 @@ function CapitaMarvel(){
                                  <SimboloFilmes src={capitaMascara}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Maria Rambeau</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
@@ -86,11 +88,11 @@ function CapitaMarvel(){
                                   <SimboloFilmes src={capitaMascara}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>Comandante Yon-Rogg</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
-                             
+                             <ImagCenas2 src={comandante}/>
                         </ContainerInformacoesCenas>
 
                         <Paragrafocenas>
@@ -104,11 +106,11 @@ function CapitaMarvel(){
                                   <SimboloFilmes src={capitaMascara}/>
                             </BolinhaCenas>
 
-                            <TituloCenas>oi</TituloCenas>
+                            <TituloCenas>O sonho de pilotar</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
-                            
+                            <ImagCenas2 src={capitaGif}/>
                         </ContainerInformacoesCenas>
 
                         <Paragrafocenas>

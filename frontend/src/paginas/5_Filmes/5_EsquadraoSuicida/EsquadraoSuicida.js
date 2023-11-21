@@ -1,13 +1,14 @@
 import Header2 from "../../../components/Header/Header2";
 import { ContainerGeral2 } from "../../../styledGlobal";
-import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, Disponivel, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Paragrafocenas, Poster, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled";
+import { BolinhaCenas, BotaoStreaming, CardCenas, CardInformacoes, ContainerCenas, ContainerInformacoesCenas, Disponivel, FilmeCard1, FilmeCard2, ImagCenas2, ImgFilmes, MiniCardTitulo, Paragrafocenas, Poster, SimboloFilmes, Textinhos, TituloCenas, TituloInfo } from "../8_CapitaMarvel/styled";
 import wallEsquadrao from "../../../assets/wallEsquadrao.png"
 import esquadraoSuicida from "../../../assets/esquadraoSuicida.jpg"
 import cenaMagia from "../../../cenas/5_EsquadraoSuicida/cenaMagia.jpeg"
 import SonhoArlequina from "../../../cenas/5_EsquadraoSuicida/SonhoArlequina.jpeg"
 import ArlequinaLambida from "../../../cenas/5_EsquadraoSuicida/ArlequinaLambida.jpeg"
 import uniformeAlerquina from "../../../cenas/5_EsquadraoSuicida/uniformeAlerquina.jpeg"
-
+import iconeES from "../../../assets/iconeES.png"
+import ESgif from "../../../cenas/5_EsquadraoSuicida/ESgif.gif"
 
 function EsquadraoSuicida(){
     return(
@@ -27,8 +28,8 @@ function EsquadraoSuicida(){
                     <ContainerCenas>
                         <MiniCardTitulo>
                             <BolinhaCenas>
-
-                            </BolinhaCenas>
+                                <SimboloFilmes src={iconeES}/>
+                            </BolinhaCenas> 
 
                             <TituloCenas>Haley conversando com os policiais no sanatório Belle Reve</TituloCenas>
                         </MiniCardTitulo>
@@ -45,7 +46,7 @@ function EsquadraoSuicida(){
                     <ContainerCenas>
                         <MiniCardTitulo>
                             <BolinhaCenas>
-
+                             <SimboloFilmes src={iconeES}/>
                             </BolinhaCenas>
 
                             <TituloCenas>Soldados e vilões observando Arlequina trocar de roupa</TituloCenas>
@@ -64,12 +65,14 @@ function EsquadraoSuicida(){
                     <ContainerCenas>
                         <MiniCardTitulo>
                             <BolinhaCenas>
-
+                             <SimboloFilmes src={iconeES}/>
                             </BolinhaCenas>
+
+                            <TituloCenas>Arlequina e Coringa</TituloCenas>
                         </MiniCardTitulo>
 
                         <ContainerInformacoesCenas>
-                              {/* <ImagCenas2 src={cenaMagia}/> */}
+                              <ImagCenas2 src={ESgif}/>
                         </ContainerInformacoesCenas>
 
                         <Paragrafocenas>
@@ -82,7 +85,7 @@ function EsquadraoSuicida(){
                     <ContainerCenas>
                         <MiniCardTitulo>
                             <BolinhaCenas>
-
+                                    <SimboloFilmes src={iconeES}/>
                             </BolinhaCenas>
 
                             <TituloCenas>1ª aparição da personagem Magia</TituloCenas>
@@ -101,7 +104,7 @@ function EsquadraoSuicida(){
                     <ContainerCenas>
                         <MiniCardTitulo>
                             <BolinhaCenas>
-
+                                  <SimboloFilmes src={iconeES}/>
                             </BolinhaCenas>
 
                             <TituloCenas>Haley imaginando o seu desejo mais profundo</TituloCenas>
@@ -169,7 +172,7 @@ function EsquadraoSuicida(){
                     </Textinhos>
 
                     <Textinhos>
-                     Atores principais:
+                     Atores principais: Margot Robbie (Arlequina), Jared Leto (Coringa), Will Smith (Pistoreiro), Viola Davis (Amanda Waller) e Joel Kinnaman (Rick Flag)
                     </Textinhos>
 
                     <Textinhos>
@@ -177,7 +180,7 @@ function EsquadraoSuicida(){
                     </Textinhos>
 
                     <Textinhos>
-                     Duração: 
+                     Duração: 2h 10min
                     </Textinhos>
 
                 </CardInformacoes>
