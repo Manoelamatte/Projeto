@@ -18,7 +18,6 @@ function Principal(){
     const [isEnable, setEnable] = useState(false);
     const idUsuario = localStorage.getItem('id');
 
-    let like = false;
 
     const fetchData = async () => {
         const response = await axios.get('http://localhost:3008/api/posts');
@@ -39,14 +38,12 @@ function Principal(){
         navigate('/comentarios/' + id)
     }
 
-    const goToEditar = (id)=>{
-        navigate('/editar/' + id)
-    }
-
+ 
     // função deletar
     const handleExcluir = async(Idpost)=>{
-        const data={
-           id_post: Idpost
+        const data ={
+           id_post: Idpost,
+           id_usuario: localStorage.getItem('id')
         }
         
         const response = await axios.delete('http://localhost:3008/api/post/' + Idpost )
@@ -58,20 +55,14 @@ function Principal(){
     }
 
     // função like
-    const handleLike = async(postId, posts)=>{
+    const handleLike = async(postId)=>{
         const data ={
             id_post: postId,
-            id_usuario: localStorage.getItem('id')
         }
 
         
         const response = await axios.post('http://localhost:3008/api/reacao/create', data);
 
-        if(postsList.includes(posts.post.id)){
-            like = true;
-        }else{
-            like=false;
-        }
 
         if(response.data.success){
             alert(response.data.message);
@@ -133,7 +124,7 @@ function Principal(){
                         </CardDireita>
         
                         <BotaoIcones onClick={()=> handleLike(post.id)}>
-                             <IconesPost src={like ? gostarColorido: gostar}/>
+                             <IconesPost src={ gostar}/>
                         </BotaoIcones>
         
                         <BotaoIcones onClick={() => goToComentarios(post.id)}>
